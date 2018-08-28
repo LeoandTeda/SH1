@@ -11,7 +11,7 @@
 To Do: 
 - [x] Überschrift
 - [ ] Vollständiges Inhaltsverzeichnis
-- [ ] Bild einfügen (  ![BJC logo] (image/BJC logo.jpg)  )
+- [x] Bild einfügen ![BJC logo] (image/BJC logo.jpg)
 - [ ] Weiteres hier reinschreiben
         
 ----------------------------------------------------      
