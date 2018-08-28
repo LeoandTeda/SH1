@@ -1,9 +1,24 @@
-# SH: Beauty and Joy of computing
 
-## Inhaltsverzeichnis
-### 1. Stundenprotokoll
+## Inhaltsverzeichnis:
+* Vorwort
+* Stundenprotokolle:
+  * 21.08.18  
+  * 27.08.18 
+  * 28.08.18 
+
+   
+---------------------------------------------------
+
+
+## Vorwort:
+
+Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informatikunterrichts
+
+
+
 #### 21.August, Dienstag 
 ##### Kurzeinführung durch Herrn Buhl
+
 #### 27. August, Montag
 ##### „The Beauty and Joy of Computing”
 - Auseinandersetzen mit vorgeschlagen Programmen und Projekten
@@ -16,4 +31,5 @@
 - Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
 - curiculum
  - - Lab 1 U 1 bearbeitet
+ 
  
