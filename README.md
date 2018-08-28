@@ -1,7 +1,7 @@
 
 ## Inhaltsverzeichnis:
-* Vorwort
-* Stundenprotokolle:
+1. Vorwort
+2. Stundenprotokolle:
   * 21.08.18  
   * 27.08.18 
   * 28.08.18 
