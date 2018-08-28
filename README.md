@@ -1,4 +1,4 @@
-# SH: _"The Beauty and Joy of Computing"_  ![BJC logo] (image/BJC logo.jpg)
+# SH: _"The Beauty and Joy of Computing"_  
 
 ## Inhaltsverzeichnis:
 1. Vorwort
@@ -11,7 +11,8 @@
 To Do: 
 - [x] Überschrift
 - [ ] Vollständiges Inhaltsverzeichnis
-- [ ] Weiteres hier hinschreiben
+- [ ] Bild einfügen (  ![BJC logo] (image/BJC logo.jpg)  )
+- [ ] Weiteres hier reinschreiben
         
 ----------------------------------------------------      
        
