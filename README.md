@@ -12,7 +12,8 @@
 - - ansprechendere Website
  - - kompletterer Kurs
  
- 28. August, Dienstag
- - curiculum
- - - Lab 1 U 1 beendet
- - - 
+ #### 28. August, Dienstag
+- Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
+- curiculum
+ - - Lab 1 U 1 bearbeitet
+ 
