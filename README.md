@@ -7,9 +7,10 @@
   * 28.08.18 
 3. Weiteres
 ---------------------------------------------------
-To DO: 
+To Do: 
 - [x] Überschrift
 - [ ] Vollständiges Inhaltsverzeichnis
+- [ ] Weiteres hier hinschreiben
         
 ----------------------------------------------------      
        
