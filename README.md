@@ -22,15 +22,15 @@ Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informati
 
 #### 27. August, Montag
 * „The Beauty and Joy of Computing”
-** Auseinandersetzen mit vorgeschlagen Programmen und Projekten
-** Eingrenzung auf BJC und Greenfoot
-** BJC im Vergleich zu Greenfoot überzeugender:
-*** ansprechendere Website
-*** kompletter Kurs
+ * Auseinandersetzen mit vorgeschlagen Programmen und Projekten
+ * Eingrenzung auf BJC und Greenfoot
+ * BJC im Vergleich zu Greenfoot überzeugender:
+  * ansprechendere Website
+  * kompletter Kurs
  
  #### 28. August, Dienstag
 * Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
-* curiculum
-** Lab 1 U 1 bearbeitet
+ * curiculum
+ * Lab 1 U 1 bearbeitet
  
  
