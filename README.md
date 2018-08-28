@@ -1,4 +1,4 @@
-# SH: _"The Beauty and Joy of Computing"_  ! [BJC logo](https://github.com/Stormann/SH2/issues/1#issue-354826350)
+# SH: _"The Beauty and Joy of Computing"_  ! [BJC logo] (https://github.com/Stormann/SH2/issues/1#issue-354826350)
 
 ## Inhaltsverzeichnis:
 1. Vorwort
