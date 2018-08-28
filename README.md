@@ -1,4 +1,4 @@
-# SH: _"The Beauty and Joy of Computing"_  ! [Image of BJC] (https://pbs.twimg.com/profile_images/378800000439621166/b23cdc47c76b3d78561b91ffc9705183_400x400.png)
+# SH: _"The Beauty and Joy of Computing"_  
 ## Inhaltsverzeichnis:
 1. Vorwort
 2. Stundenprotokolle:
