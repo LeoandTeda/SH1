@@ -1,4 +1,5 @@
-# SH: _"The Beauty and Joy of Computing"_  
+# SH: _"The Beauty and Joy of Computing"_  ![BJC logo] (image/BJC logo.jpg)
+
 ## Inhaltsverzeichnis:
 1. Vorwort
 2. Stundenprotokolle:
