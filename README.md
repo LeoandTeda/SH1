@@ -2,11 +2,12 @@
 ![BJC logo](https://pbs.twimg.com/profile_images/378800000439621166/b23cdc47c76b3d78561b91ffc9705183_400x400.png)
 ## Inhaltsverzeichnis:
 [1. Vorwort] (#h1)
-2. Stundenprotokolle: (#h2)
-  * 21.08.18 (#one)
-  * 27.08.18 (#two)
-  * 28.08.18 (#three)
-3. Weiteres
+[2. Stundenprotokolle:] (#h2)
+  [* 21.08.18] (#s1)
+  [* 27.08.18] (#s2)
+  [* 28.08.18] (#s3)
+[3. Weiteres] (#w3)
+
 ---------------------------------------------------
 To Do: 
 - [x] Überschrift
