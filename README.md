@@ -1,5 +1,4 @@
-# SH: _"The Beauty and Joy of Computing"_  ! [BJC logo] (https://github.com/Stormann/SH2/issues/1#issue-354826350)
-
+# SH: _"The Beauty and Joy of Computing"_  ![BJC logo](https://pbs.twimg.com/profile_images/378800000439621166/b23cdc47c76b3d78561b91ffc9705183_400x400.png)
 ## Inhaltsverzeichnis:
 1. Vorwort
 2. Stundenprotokolle:
