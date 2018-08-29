@@ -17,6 +17,7 @@ To Do:
 - [x] Überschrift
 - [ ] Vollständiges Inhaltsverzeichnis
 - [x] Bild einfügen ![BJC logo] (image/BJC logo.jpg)
+- [ ] evtl in Stundenprotokollen von Stickpunkten zu Text wechseln
 - [ ] Weiteres hier reinschreiben
         
 ----------------------------------------------------      
@@ -40,8 +41,11 @@ Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informati
  #### 28. August, Dienstag <a name="s3"></a>
 * Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
   * curiculum
-  * Lab 1 U 1 bearbeitet
-  
+  * Unit 1 Lab 1 bearbeitet
+  * Erstes "Spiel" programmiert und an den Schwierigkeiten experimentiert:
+    * [Zum Spiel](https://snap.berkeley.edu/snapsource/snap.html#present:Username=stormann1&ProjectName=U1L1%20Alonso)
+ 
+ 
  #### 03. September, Montag <a name="s4"></a>
   ## Weiteres <a name="h3"></a>
  
