@@ -29,15 +29,19 @@ Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informati
 
 ## Stundenprotokolle: <a name="h2"></a>
 #### 21.August, Dienstag <a name="s1"></a>
-Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführung in den Informatikunterricht und sein Unterrichtskonzept gegeben. In seinem Leitfaden waren einige Programme vorgeschlagen, von denen uns "Greenfoot" und "The beauty and Joy of Computing" _(im folgenden **"BJC"**)_ am meisten zusagten. Wir haben die Stunde am Dienstag dann dafür verwendet uns mit BJC und der in diesem Kurs verwendeten Programmiersprache **SNAP!** auseinanderzusetzen. Wir haben vor allem versucht uns etwas mit dem Editor vertraut zu machen und haben dann auch Testweise mit der ersten Lektion begonnen. Diese kurze Zeit hat uns schon so viel Spaß gemacht, dass wir beschlossen, uns in der nächsten Stunde weiter mit BJC zu beschäftigen.
+Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführung in den Informatikunterricht und sein Unterrichtskonzept gegeben. In seinem Leitfaden waren einige Programme vorgeschlagen, von denen uns **"Greenfoot"** und **"The beauty and Joy of Computing"** _(im folgenden **"BJC"**)_ am meisten zusagten. Wir haben die Stunde am Dienstag dann dafür verwendet uns mit BJC und der in diesem Kurs verwendeten Programmiersprache **SNAP!** auseinanderzusetzen. Wir haben vor allem versucht uns etwas mit dem Editor vertraut zu machen und haben dann auch Testweise mit der ersten Lektion begonnen. Diese kurze Zeit hat uns schon so viel Spaß gemacht, dass wir beschlossen, uns in der nächsten Stunde weiter mit BJC zu beschäftigen. Trotzdem haben wir uns beide vorgenommen, bis nächste Woche zuhause noch ein paar Informationen über Alternativen _(vor allem Greenfoot)_ einzuholen und diese auszuprobieren.
 
 #### 27. August, Montag <a name="s2"></a>
-* „The Beauty and Joy of Computing”
+  ~~* „The Beauty and Joy of Computing”
   * Auseinandersetzen mit vorgeschlagen Programmen und Projekten
   * Eingrenzung auf BJC und Greenfoot
   * BJC im Vergleich zu Greenfoot überzeugender:
     * ansprechendere Website
-    * kompletter Kurs
+    * kompletter Kurs~~
+
+Wir haben uns heute endgültig dafür etschieden, bei BJC zu bleiben. Überzeugt haben uns vor allem die ansprechende Website und der komplettere und auch anfängerfreundliche Kurs. Da wir beide wenig Vorkenntnisse im Programmieren haben und beide bisher nur die "Nutzerseite" kennen, schien uns der Beginn mit BJC eine gute Idee, da der Kurs verspricht, gerade für Schüler konzipiert zu sein, die wenig bis keine Vorkenntisse auf diesem Gebiet zu haben.
+Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem wir einen Account erstellt und uns eingeloggt haben, haben wir damit begonnen unsere erste Spielfigur, ein "Sprite" zu erstellen. Dafür haben wir aus den vorgegebenen Kostümen das "Alonzo" Kostüm ausgewählt und es als Bild für unser Sprite ausgewählt.
+>! (Spoiler Sprite?)
  
  #### 28. August, Dienstag <a name="s3"></a>
 * Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
