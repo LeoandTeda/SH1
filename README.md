@@ -43,7 +43,7 @@ Wir haben uns heute endgültig dafür etschieden, bei BJC zu bleiben. Überzeugt
 Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem wir einen Account erstellt und uns eingeloggt haben, haben wir damit begonnen unsere erste Spielfigur, ein "Sprite" zu erstellen. Dafür haben wir aus den vorgegebenen Kostümen das "Alonzo" Kostüm ausgewählt und es als Bild für unser Sprite ausgewählt.
 <details>
   <summary>Sprite</summary>
-  xxx
+        Ein Sprite (engl. unter anderem für ein Geistwesen, Kobold) ist ein Grafikobjekt, das von der Grafikhardware über das Hintergrundbild bzw. den restlichen Inhalt der Bildschirmanzeige eingeblendet wird. Die Positionierung wird dabei komplett von der Grafikhardware erledigt. (- Wikipedia)
 </details>
  
  #### 28. August, Dienstag <a name="s3"></a>
