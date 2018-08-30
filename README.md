@@ -21,6 +21,8 @@ To Do:
 - [ ] besprechen: wie viel Text, wie viel berichten wir über die einzelnen Projekte und was wir da gemacht haben
 - [ ] Weiteres hier reinschreiben
         
+[Zu Snap! BJC](http://snap.berkeley.edu/run)
+
 ----------------------------------------------------      
        
 ## Vorwort: <a name="h1"></a>
