@@ -41,7 +41,7 @@ Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführu
 
 Wir haben uns heute endgültig dafür etschieden, bei BJC zu bleiben. Überzeugt haben uns vor allem die ansprechende Website und der komplettere und auch anfängerfreundliche Kurs. Da wir beide wenig Vorkenntnisse im Programmieren haben und beide bisher nur die "Nutzerseite" kennen, schien uns der Beginn mit BJC eine gute Idee, da der Kurs verspricht, gerade für Schüler konzipiert zu sein, die wenig bis keine Vorkenntisse auf diesem Gebiet zu haben.
 Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem wir einen Account erstellt und uns eingeloggt haben, haben wir damit begonnen unsere erste Spielfigur, ein "Sprite" zu erstellen. Dafür haben wir aus den vorgegebenen Kostümen das "Alonzo" Kostüm ausgewählt und es als Bild für unser Sprite ausgewählt.
->! (Spoiler Sprite?)
+>!(Spoiler Sprite?)
  
  #### 28. August, Dienstag <a name="s3"></a>
 * Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
