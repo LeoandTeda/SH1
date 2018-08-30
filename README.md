@@ -47,7 +47,8 @@ Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem w
   <summary>Sprite</summary>
         Ein Sprite (engl. unter anderem für ein Geistwesen, Kobold) ist ein Grafikobjekt, das von der Grafikhardware über das Hintergrundbild bzw. den restlichen Inhalt der Bildschirmanzeige eingeblendet wird. Die Positionierung wird dabei komplett von der Grafikhardware erledigt. (- Wikipedia)
 </details>
-blablabla
+wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich umdreht, wenn er angeklickt wird.
+
  
  #### 28. August, Dienstag <a name="s3"></a>
 * Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
