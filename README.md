@@ -29,7 +29,7 @@ Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informati
 
 ## Stundenprotokolle: <a name="h2"></a>
 #### 21.August, Dienstag <a name="s1"></a>
-* Kurzeinführung durch Herrn Buhl
+Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführung in den Informatikunterricht und sein Unterrichtskonzept gegeben. In seinem Leitfaden waren einige Programme vorgeschlagen, von denen uns "Greenfoot" und "The beauty and Joy of Computing" _(im folgenden **"BJC"**)_ am meisten zusagten. Wir haben die Stunde am Dienstag dann dafür verwendet uns mit BJC und der in diesem Kurs verwendeten Programmiersprache **SNAP!** auseinanderzusetzen. Wir haben vor allem versucht uns etwas mit dem Editor vertraut zu machen und haben dann auch Testweise mit der ersten Lektion begonnen. Diese kurze Zeit hat uns schon so viel Spaß gemacht, dass wir beschlossen, uns in der nächsten Stunde weiter mit BJC zu beschäftigen.
 
 #### 27. August, Montag <a name="s2"></a>
 * „The Beauty and Joy of Computing”
