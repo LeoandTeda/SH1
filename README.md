@@ -54,6 +54,8 @@ wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 * Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
   * curiculum
   * Unit 1 Lab 1 bearbeitet
+  Formulierter Text (Entwurf):
+  
   * Erstes "Spiel" programmiert und an den Schwierigkeiten experimentiert:
     * [Zum Spiel](https://snap.berkeley.edu/snapsource/snap.html#present:Username=stormann1&ProjectName=U1L1%20Alonso)
  
