@@ -42,9 +42,11 @@ Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführu
     * ansprechendere Website
     * kompletter Kurs
 <details>
-  <summary>?</summary>
+  <summary>Zusammenfassung</summary>
        Wir haben uns heute endgültig dafür etschieden, bei BJC zu bleiben. Überzeugt haben uns vor allem die ansprechende Website und der komplettere und auch anfängerfreundliche Kurs. Da wir beide wenig Vorkenntnisse im Programmieren haben und beide bisher nur die "Nutzerseite" kennen, schien uns der Beginn mit BJC eine gute Idee, da der Kurs verspricht, gerade für Schüler konzipiert zu sein, die wenig bis keine Vorkenntisse auf diesem Gebiet zu haben.
 Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem wir einen Account erstellt und uns eingeloggt haben, haben wir damit begonnen unsere erste Spielfigur, ein "Sprite" zu erstellen. Dafür haben wir aus den vorgegebenen Kostümen das "Alonzo" Kostüm ausgewählt und es als Bild für unser Sprite ausgewählt.
+        wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich umdreht, wenn er angeklickt wird.
+<img width="202" alt="change costum Alonzo" src="https://user-images.githubusercontent.com/42579272/44869057-e314f300-ac8c-11e8-8cf1-21375b44c34d.png">
 </details>
 
 <details>
@@ -55,7 +57,6 @@ wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 <img width="202" alt="change costum Alonzo" src="https://user-images.githubusercontent.com/42579272/44869057-e314f300-ac8c-11e8-8cf1-21375b44c34d.png">
  
  #### 28. August, Dienstag <a name="s3"></a>
-* Entschluss zur intensiveren, kursgestützten Arbeit mit BJC
   * curiculum
   * Unit 1 Lab 1 bearbeitet
   Formulierter Text (Entwurf):
@@ -72,3 +73,6 @@ wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
   <summary>Text</summary>
        
 </details>
+
+ #### 10. September, Montag <a name="s5"></a>
+ 
