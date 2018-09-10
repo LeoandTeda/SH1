@@ -1,5 +1,6 @@
 # SH: _"The Beauty and Joy of Computing"_  
 ![BJC logo](https://pbs.twimg.com/profile_images/378800000439621166/b23cdc47c76b3d78561b91ffc9705183_400x400.png)
+Offizielles Logo des Onlinekurses
 ## Inhaltsverzeichnis:
 1. [Vorwort](#h1)
 2. [Stundenprotokolle:](#h2)
