@@ -76,4 +76,9 @@ Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem w
 </details>
 
  #### 10. September, Montag <a name="s6"></a>
- 
+ * Beginn U1L2
+ * scripts observiert
+ * skin gegeben
+ * when i am clicked
+ * blocks bearbeitet
+ * größe ändern: editor, set size to
