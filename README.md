@@ -83,9 +83,6 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 ---------------------------------------------------
  
  ### 03. September, Montag <a name="s4"></a>
-  * stichwort 1
-  * nummer2
-  * nummer 3
   * aufbau und strukturierung des stundenblogs absprache über inhalt 
  <details>
   <summary>Genauer:</summary>
@@ -109,9 +106,6 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 ---------------------------------------------------
 
  ### 22. Oktober, Montag <a name="s8"></a>
- * stichwort
- * nummer 2
- * nummer 3
  * arbeit an u1 L3 Modernart siehe curriculum
  * github hatte einen fehler, daher keine arbeit daran
  <details>
@@ -122,9 +116,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 ---------------------------------------------------
  
  ### 23. Oktober, Dienstag <a name="s9"></a>
-  * stichwort
- * nummer 2
- * nummer 3
+
  * arbeit an der github seite. neue strukturierung ausformulierung der texte. übearbeitung der sprites etc. grundlagen gelernt über html codes in github sowie css im Html code
  <details>
   <summary>Genauer:</summary>
