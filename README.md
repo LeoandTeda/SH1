@@ -31,7 +31,14 @@ To Do:
 Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informatikunterrichts
 
 ## Stundenprotokolle: <a name="h2"></a>
+<details>
+  <summary>#Struktur</summary>
+Kurze Erläuterung zum Aufbau des Blogs:
+Jedes Stundenprotokoll enthält, zur besseren Übersicht, eine Kurzfassung in Form von Stichpunkten. In Form eines Sprites lässt sich eine detaillierte Beschreibung der Stunde öffnen. 
+</details>
+                
 #### 21.August, Dienstag <a name="s1"></a>
+
 Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführung in den Informatikunterricht und sein Unterrichtskonzept gegeben. In seinem Leitfaden waren einige Programme vorgeschlagen, von denen uns **"Greenfoot"** und **"The beauty and Joy of Computing"** _(im folgenden **"BJC"**)_ am meisten zusagten. Wir haben die Stunde am Dienstag dann dafür verwendet uns mit BJC und der in diesem Kurs verwendeten Programmiersprache **SNAP!** auseinanderzusetzen. Wir haben vor allem versucht uns etwas mit dem Editor vertraut zu machen und haben dann auch Testweise mit der ersten Lektion begonnen. Diese kurze Zeit hat uns schon so viel Spaß gemacht, dass wir beschlossen, uns in der nächsten Stunde weiter mit BJC zu beschäftigen. Trotzdem haben wir uns beide vorgenommen, bis nächste Woche zuhause noch ein paar Informationen über Alternativen _(vor allem Greenfoot)_ einzuholen und diese auszuprobieren.
 
 #### 27. August, Montag <a name="s2"></a>
@@ -63,14 +70,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
  
  #### 03. September, Montag <a name="s4"></a>
-  ## Weiteres <a name="h3"></a>
- wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich umdreht, wenn er angeklickt wird.
-<img width="202" alt="change costum Alonzo" src="https://user-images.githubusercontent.com/42579272/44869057-e314f300-ac8c-11e8-8cf1-21375b44c34d.png">
  
-<details>
-  <summary>Text</summary>
-       
-</details>
 
  #### 10. September, Montag <a name="s6"></a>
  * Beginn U1L2
@@ -79,3 +79,10 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  * when i am clicked
  * blocks bearbeitet
  * größe ändern: editor, set size to
+ 
+  ## Weiteres <a name="h3"></a>
+  
+  Commands zum Einfügen: 
+<details>
+  <summary>Text</summary>   
+</details>
