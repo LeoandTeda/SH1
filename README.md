@@ -46,6 +46,7 @@ Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführu
         </details>
         
 -----------------------------------------------------------------------------
+
 #### 27. August, Montag <a name="s2"></a>
   * „The Beauty and Joy of Computing”
   * Auseinandersetzen mit vorgeschlagen Programmen und Projekten
@@ -66,13 +67,15 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 </details>
  
 -------------------------------------------------------------------------------------------
+
  #### 28. August, Dienstag <a name="s3"></a>
   * curiculum
   * Unit 1 Lab 1 bearbeitet
   Formulierter Text (Entwurf):
   * Erstes "Spiel" programmiert und an den Schwierigkeiten experimentiert:
     * [Zum Spiel](https://snap.berkeley.edu/snapsource/snap.html#present:Username=stormann1&ProjectName=U1L1%20Alonso)
- 
+    
+ -------------------------------------------------------------------------------------------------------
  
  #### 03. September, Montag <a name="s4"></a>
   * stichwort 1
@@ -84,6 +87,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  -------------------------------------------------------------------------------------------------
+ 
  #### 10. September, Montag <a name="s6"></a>
  * Beginn U1L2
  * scripts observiert
@@ -97,6 +101,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  -------------------------------------------------------------------------------------------------------
+ 
  #### 22. Oktober, Montag <a name="s8"></a>
  * stichwort
  * nummer 2
@@ -108,6 +113,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  -----------------------------------------------------------------------------------------------------------
+ 
  #### 23. Oktober, Dienstag <a name="s9"></a>
   * stichwort
  * nummer 2
@@ -118,6 +124,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  --------------------------------------------------------------------------------------------------------------
+ 
   #### 29. Oktober, Montag <a name="s10"></a>
  * stichwort
  * nummer 2
@@ -127,6 +134,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  ----------------------------------------------------------------------------------------------------------------
+ 
   #### 30. Oktober, Dienstag <a name="s11"></a>
  * stichwort
  * nummer 2
@@ -137,6 +145,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  </details>
  
  ---------------------------------------------------------------------------------------------------------------
+ 
   ## Weiteres <a name="h3"></a>
   Commands zum Einfügen: (meist nur beim Bearbeiten sichtbar) 
 <details>
