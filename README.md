@@ -20,7 +20,8 @@ To Do:
 - [x] Bild einfügen ![BJC logo] (image/BJC logo.jpg)
 - [ ] evtl in Stundenprotokollen von Stickpunkten zu Text wechseln
 - [ ] besprechen: wie viel Text, wie viel berichten wir über die einzelnen Projekte und was wir da gemacht haben
-- [ ] Weiteres hier reinschreiben
+- [ ] Weiteres hier reinschreiben 
+
         
 [Zu Snap! BJC](http://snap.berkeley.edu/run)
 
