@@ -25,7 +25,7 @@ To Do:
 [Zu Snap! BJC](http://snap.berkeley.edu/run)
 
 ----------------------------------------------------      
-       
+             
 ## Vorwort: <a name="h1"></a>
 Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informatikunterrichts
 <details>
@@ -76,7 +76,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
   * stichwort 1
   * nummer2
   * nummer 3
-  
+  * aufbau und strukturierung des stundenblogs absprache über inhalt 
  <details>
   <summary>Genauer:</summary>
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
@@ -106,7 +106,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  
- #### 23. Obtober, Dienstag <a name="s9"></a>
+ #### 23. Oktober, Dienstag <a name="s9"></a>
   * stichwort
  * nummer 2
  * nummer 3
@@ -116,8 +116,27 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  
+  #### 29. Oktober, Montag <a name="s10"></a>
+ * stichwort
+ * nummer 2
+ * nummer 3
+ <details>
+  <summary>Genauer:</summary>
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+ </details>
+ 
+  #### 30. Oktober, Dienstag <a name="s11"></a>
+ * stichwort
+ * nummer 2
+ * nummer 3
+ <details>
+  <summary>Genauer:</summary>
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+ </details>
+ 
+ 
   ## Weiteres <a name="h3"></a>
-  Commands zum Einfügen: 
+  Commands zum Einfügen: (meist nur beim Bearbeiten sichtbar) 
 <details>
   <summary>Text</summary>   
 </details>
