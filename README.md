@@ -44,15 +44,12 @@ Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführu
 <details>
   <summary>Zusammenfassung</summary>
        Wir haben uns heute endgültig dafür etschieden, bei BJC zu bleiben. Überzeugt haben uns vor allem die ansprechende Website und der komplettere und auch anfängerfreundliche Kurs. Da wir beide wenig Vorkenntnisse im Programmieren haben und beide bisher nur die "Nutzerseite" kennen, schien uns der Beginn mit BJC eine gute Idee, da der Kurs verspricht, gerade für Schüler konzipiert zu sein, die wenig bis keine Vorkenntisse auf diesem Gebiet zu haben.
-Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem wir einen Account erstellt und uns eingeloggt haben, haben wir damit begonnen unsere erste Spielfigur, ein "Sprite" zu erstellen. Dafür haben wir aus den vorgegebenen Kostümen das "Alonzo" Kostüm ausgewählt und es als Bild für unser Sprite ausgewählt.
-        wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich umdreht, wenn er angeklickt wird.
-        
+Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem wir einen Account erstellt und uns eingeloggt haben, haben wir damit begonnen unsere erste Spielfigur, ein "Sprite" zu erstellen. Dafür haben wir aus den vorgegebenen Kostümen das "Alonzo" Kostüm ausgewählt und es als Bild für unser <details>
+        <summary>Sprite</summary>
+Ein Sprite (engl. unter anderem für ein Geistwesen, Kobold) ist ein Grafikobjekt, das von der Grafikhardware über das Hintergrundbild bzw. den restlichen Inhalt der Bildschirmanzeige eingeblendet wird. Die Positionierung wird dabei komplett von der Grafikhardware erledigt. (- Wikipedia)
+Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich umdreht, wenn er angeklickt wird.
+        <br><br>
 <img width="202" alt="change costum Alonzo" src="https://user-images.githubusercontent.com/42579272/44869057-e314f300-ac8c-11e8-8cf1-21375b44c34d.png">
-</details>
-
-<details>
-  <summary>Sprite</summary>
-        Ein Sprite (engl. unter anderem für ein Geistwesen, Kobold) ist ein Grafikobjekt, das von der Grafikhardware über das Hintergrundbild bzw. den restlichen Inhalt der Bildschirmanzeige eingeblendet wird. Die Positionierung wird dabei komplett von der Grafikhardware erledigt. (- Wikipedia)
 </details>
 
  
