@@ -49,7 +49,7 @@ Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem w
 Ein Sprite (engl. unter anderem für ein Geistwesen, Kobold) ist ein Grafikobjekt, das von der Grafikhardware über das Hintergrundbild bzw. den restlichen Inhalt der Bildschirmanzeige eingeblendet wird. Die Positionierung wird dabei komplett von der Grafikhardware erledigt. (- Wikipedia)
 Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich umdreht, wenn er angeklickt wird.
         <br><br>
-<img width="202" alt="change costum Alonzo" src="https://user-images.githubusercontent.com/42579272/44869057-e314f300-ac8c-11e8-8cf1-21375b44c34d.png">
+<p text-align="right"><img width="202" alt="change costum Alonzo" src="https://user-images.githubusercontent.com/42579272/44869057-e314f300-ac8c-11e8-8cf1-21375b44c34d.png"></p>
 </details>
 
  
