@@ -27,16 +27,13 @@ To Do:
 ----------------------------------------------------      
        
 ## Vorwort: <a name="h1"></a>
-
 Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informatikunterrichts
-
-## Stundenprotokolle: <a name="h2"></a>
 <details>
-  <summary>#Struktur</summary>
-Kurze Erläuterung zum Aufbau des Blogs:
+  <summary>Aufbau des Blogs</summary>
 Jedes Stundenprotokoll enthält, zur besseren Übersicht, eine Kurzfassung in Form von Stichpunkten. In Form eines Sprites lässt sich eine detaillierte Beschreibung der Stunde öffnen. 
 </details>
-                
+
+## Stundenprotokolle: <a name="h2"></a>         
 #### 21.August, Dienstag <a name="s1"></a>
 
 Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführung in den Informatikunterricht und sein Unterrichtskonzept gegeben. In seinem Leitfaden waren einige Programme vorgeschlagen, von denen uns **"Greenfoot"** und **"The beauty and Joy of Computing"** _(im folgenden **"BJC"**)_ am meisten zusagten. Wir haben die Stunde am Dienstag dann dafür verwendet uns mit BJC und der in diesem Kurs verwendeten Programmiersprache **SNAP!** auseinanderzusetzen. Wir haben vor allem versucht uns etwas mit dem Editor vertraut zu machen und haben dann auch Testweise mit der ersten Lektion begonnen. Diese kurze Zeit hat uns schon so viel Spaß gemacht, dass wir beschlossen, uns in der nächsten Stunde weiter mit BJC zu beschäftigen. Trotzdem haben wir uns beide vorgenommen, bis nächste Woche zuhause noch ein paar Informationen über Alternativen _(vor allem Greenfoot)_ einzuholen und diese auszuprobieren.
