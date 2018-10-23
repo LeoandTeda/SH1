@@ -99,6 +99,8 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  * stichwort
  * nummer 2
  * nummer 3
+ * arbeit an u1 L3 Modernart siehe curriculum
+ * github hatte einen fehler, daher keine arbeit daran
  <details>
   <summary>Genauer:</summary>
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
@@ -108,6 +110,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
   * stichwort
  * nummer 2
  * nummer 3
+ * arbeit an der github seite. neue strukturierung ausformulierung der texte. übearbeitung der sprites etc. grundlagen gelernt über html codes in github sowie css im Html code
  <details>
   <summary>Genauer:</summary>
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
@@ -115,6 +118,6 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
   ## Weiteres <a name="h3"></a>
   Commands zum Einfügen: 
-1<details>
+<details>
   <summary>Text</summary>   
-</details>1
+</details>
