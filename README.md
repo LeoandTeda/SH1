@@ -79,7 +79,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
   
  <details>
   <summary>Genauer:</summary>
-        Dies ist ein Blindtext, der zum Testen des Textformates dient. 
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  
  #### 10. September, Montag <a name="s6"></a>
@@ -92,16 +92,29 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
  <details>
   <summary>Genauer:</summary>
-        Dies ist ein Blindtext, der zum Testen des Textformates dient.Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  
  #### 22. Oktober, Montag <a name="s8"></a>
+ * stichwort
+ * nummer 2
+ * nummer 3
+ <details>
+  <summary>Genauer:</summary>
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+ </details>
  
  #### 23. Obtober, Dienstag <a name="s9"></a>
- 
+  * stichwort
+ * nummer 2
+ * nummer 3
+ <details>
+  <summary>Genauer:</summary>
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+ </details>
  
   ## Weiteres <a name="h3"></a>
   Commands zum Einfügen: 
-<details>
+1<details>
   <summary>Text</summary>   
-</details>
+</details>1
