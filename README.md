@@ -34,7 +34,7 @@ Jedes Stundenprotokoll enthält, zur besseren Übersicht, eine Kurzfassung in Fo
 </details>
 
 ## Stundenprotokolle: <a name="h2"></a>         
-#### 21.August, Dienstag <a name="s1"></a>
+### 21.August, Dienstag <a name="s1"></a>
 
  * Erste Informatikstunde
   * Kurze Einführung
@@ -47,7 +47,7 @@ Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführu
 
 ---------------------------------------------------
 
-#### 27. August, Montag <a name="s2"></a>
+### 27. August, Montag <a name="s2"></a>
   * „The Beauty and Joy of Computing”
   * Auseinandersetzen mit vorgeschlagen Programmen und Projekten
   * Eingrenzung auf BJC und Greenfoot
@@ -69,16 +69,20 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 
 ---------------------------------------------------
 
- #### 28. August, Dienstag <a name="s3"></a>
+ ### 28. August, Dienstag <a name="s3"></a>
   * curiculum
   * Unit 1 Lab 1 bearbeitet
   Formulierter Text (Entwurf):
   * Erstes "Spiel" programmiert und an den Schwierigkeiten experimentiert:
     * [Zum Spiel](https://snap.berkeley.edu/snapsource/snap.html#present:Username=stormann1&ProjectName=U1L1%20Alonso)
+<details>
+  <summary>Genauer:</summary>
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+ </details>
     
 ---------------------------------------------------
  
- #### 03. September, Montag <a name="s4"></a>
+ ### 03. September, Montag <a name="s4"></a>
   * stichwort 1
   * nummer2
   * nummer 3
@@ -90,7 +94,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
  
- #### 10. September, Montag <a name="s6"></a>
+ ### 10. September, Montag <a name="s6"></a>
  * Beginn U1L2
  * scripts observiert
  * skin gegeben
@@ -104,7 +108,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
 
- #### 22. Oktober, Montag <a name="s8"></a>
+ ### 22. Oktober, Montag <a name="s8"></a>
  * stichwort
  * nummer 2
  * nummer 3
@@ -117,7 +121,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
  
- #### 23. Oktober, Dienstag <a name="s9"></a>
+ ### 23. Oktober, Dienstag <a name="s9"></a>
   * stichwort
  * nummer 2
  * nummer 3
@@ -129,7 +133,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 
 ---------------------------------------------------
  
-  #### 29. Oktober, Montag <a name="s10"></a>
+  ### 29. Oktober, Montag <a name="s10"></a>
  * stichwort
  * nummer 2
  * nummer 3
@@ -140,7 +144,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
  
-  #### 30. Oktober, Dienstag <a name="s11"></a>
+  ### 30. Oktober, Dienstag <a name="s11"></a>
  * stichwort
  * nummer 2
  * nummer 3
