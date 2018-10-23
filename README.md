@@ -68,7 +68,6 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
   * curiculum
   * Unit 1 Lab 1 bearbeitet
   Formulierter Text (Entwurf):
-  
   * Erstes "Spiel" programmiert und an den Schwierigkeiten experimentiert:
     * [Zum Spiel](https://snap.berkeley.edu/snapsource/snap.html#present:Username=stormann1&ProjectName=U1L1%20Alonso)
  
@@ -93,7 +92,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
  <details>
   <summary>Genauer:</summary>
-        Dies ist ein Blindtext, der zum Testen des Textformates dient. 
+        Dies ist ein Blindtext, der zum Testen des Textformates dient.Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
  </details>
  
  #### 22. Oktober, Montag <a name="s8"></a>
