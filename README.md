@@ -127,8 +127,8 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 
  
   ### 29. Oktober, Montag <a name="s10"></a>
- * stichwort
- * nummer 2
+ * ein block für viele befehle, umgang mit inputs die in der blokcdefinition vorhanden sind sogenannte parameter
+ * clean up block. organisation für bessere übersicht: fehler vermeidung/ finden
  * nummer 3
  <details>
   <summary>Genauer:</summary>
