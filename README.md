@@ -119,13 +119,12 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  ### 23. Oktober, Dienstag <a name="s9"></a>
 
  * arbeit an der github seite. neue strukturierung ausformulierung der texte. übearbeitung der sprites etc. grundlagen gelernt über html codes in github sowie css im Html code
- * strukturierung des github codes. da html code <hr> nicht funktioniert(trennlinie)
+ * strukturierung des github codes 
  <details>
   <summary>Genauer:</summary>
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
- </details>
+ </details>     <hr>
 
----------------------------------------------------
  
   ### 29. Oktober, Montag <a name="s10"></a>
  * stichwort
