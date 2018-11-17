@@ -10,7 +10,14 @@ Offizielles Logo des Onlinekurses
  * [03.09.18](#s4)
  * [04.09.18](#s5)
  * [10.09.18](#s6)
- * [11.09.18](#s7)
+ * [18.10.18](#s7)
+ * [22.10.18](#s8)
+ * [23.10.18](#s9)
+ * [29.10.18](#s10)
+ * [30.10.18](#s11)
+ * [06.11.18](#s12)
+ * [12.11.18](#s13)
+ * [13.11.18](#s14)
 3. [Weiteres](#h3)
 
 ---------------------------------------------------
@@ -83,7 +90,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
     
 ---------------------------------------------------
  
- ### 03. September, Montag <a name="s4"></a>
+ ### 10. September, Montag <a name="s4"></a>
   * aufbau und strukturierung des stundenblogs absprache über inhalt 
  <details>
   <summary>Genauer:</summary>
@@ -92,7 +99,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
  
- ### 10. September, Montag <a name="s6"></a>
+ ### 11. September, Montag <a name="s5"></a>
  * Beginn U1L2
  * scripts observiert
  * skin gegeben
@@ -106,7 +113,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
 
- ### 22. Oktober, Montag <a name="s8"></a>
+ ### 17. September, Montag <a name="s6"></a>
  * arbeit an u1 L3 Modernart siehe curriculum
  * github hatte einen fehler, daher keine arbeit daran
  <details>
@@ -116,7 +123,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
  
- ### 23. Oktober, Dienstag <a name="s9"></a>
+ ### 18.September, Dienstag <a name="s7"></a>
 
  * arbeit an der github seite. neue strukturierung ausformulierung der texte. übearbeitung der sprites etc. grundlagen gelernt über html codes in github sowie css im Html code
  * strukturierung des github codes 
@@ -126,7 +133,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  </details>     <hr>
 
  
-  ### 29. Oktober, Montag <a name="s10"></a>
+  ### 22. Oktober, Montag <a name="s8"></a>
  * ein block für viele befehle, umgang mit inputs die in der blokcdefinition vorhanden sind sogenannte parameter
  * clean up block. organisation für bessere übersicht: fehler vermeidung/ finden
  * nummer 3
@@ -137,7 +144,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
  
-  ### 30. Oktober, Dienstag <a name="s11"></a>
+  ### 23. Oktober, Dienstag <a name="s9"></a>
  * stichwort
  * nummer 2
  * nummer 3
@@ -148,7 +155,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
  
- ### 05. November, Montag <a name="s12"></a>
+ ### 29. Oktober, Montag <a name="s10"></a>
  * stichwort
  * nummer 2
  * nummer 3
@@ -159,7 +166,17 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  
 ---------------------------------------------------
 
-### 06. November, Dienstag <a name="s13"></a>
+ ### 30. Oktober, Dienstag <a name="s11"></a>
+ * stichwort
+ * nummer 2
+ * nummer 3
+ <details>
+  <summary>Genauer:</summary>
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+ </details>
+ 
+
+### 06. November, Dienstag <a name="s12"></a>
  * stichwort
  * nummer 2
  * nummer 3
@@ -169,6 +186,24 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  </details>
  
 ---------------------------------------------------
+
+### 12. November, Dienstag <a name="s13"></a>
+ * stichwort
+ * nummer 2
+ * nummer 3
+ <details>
+  <summary>Genauer:</summary>
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+ </details>  <hr>
+ 
+ ### 13. November, Dienstag <a name="s14"></a>
+ * stichwort
+ * nummer 2
+ * nummer 3
+ <details>
+  <summary>Genauer:</summary>
+        Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
+ </details>
  
  
  
