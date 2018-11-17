@@ -100,12 +100,8 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 ---------------------------------------------------
  
  ### 11. September, Montag <a name="s5"></a>
- * Beginn U1L2
- * scripts observiert
- * skin gegeben
- * when i am clicked
- * blocks bearbeitet
- * größe ändern: editor, set size to
+ * arbeit ein kurs
+
  <details>
   <summary>Genauer:</summary>
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
@@ -134,8 +130,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 
  
   ### 22. Oktober, Montag <a name="s8"></a>
- * ein block für viele befehle, umgang mit inputs die in der blokcdefinition vorhanden sind sogenannte parameter
- * clean up block. organisation für bessere übersicht: fehler vermeidung/ finden
+ 
  * nummer 3
  <details>
   <summary>Genauer:</summary>
