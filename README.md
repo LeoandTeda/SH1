@@ -168,7 +168,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
  <details>
   <summary>Genauer:</summary>
         Dies ist ein Blindtext, der zum Testen des Textformates dient. Hier kommt später ein Fließtext über das jeweilige Stundenprotokoll rein. abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§"$%&/()=? 
- </details>
+ </details>   <hr>
  
 
 ### 06. November, Dienstag <a name="s12"></a>
