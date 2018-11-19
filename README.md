@@ -117,7 +117,7 @@ Bei GitHub war außerdem wichtig, wie man die richtige Schriftgröße auswählt,
 ---------------------------------------------------
  
  ### 11. September, Montag <a name="s5"></a>
- *     Reflektion über Kurs, Arbeit daran 
+ * Reflektion über Kurs, Arbeit daran 
    * Vor und Nachteile 
  * Umsetzung der GitHub Ideen 
    * ToDo Liste als Strukturierungshilfe
