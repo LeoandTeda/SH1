@@ -20,9 +20,7 @@ Offizielles Logo des Onlinekurses
  * [13.11.18](#s14)
 3. [Weiteres](#h3)
 
----------------------------------------------------
-Direkt zu BJC:
-        
+
 [Zu Snap! BJC](http://snap.berkeley.edu/run)
 
 ----------------------------------------------------      
@@ -170,14 +168,18 @@ Wir bereits an manchen Tagen angeklungen, ist der BJC-Kurs sehr kleinschrittig u
 Unsere sehr grobe Spielidee war, dass man ein “Alien” steuert und einzelnen, zufällig erscheinenden Bällen für Punkte nachjagt.  
 
 Zuerst entwickelten wir daher die Grundsteuerung. Dies war einfach umzusetzen, indem man einer bestimmten Taste eine Aktion zuordnet. Außerdem haben wir die Grundlage des Codes für den Ball erstellt. Wenn dieser berührt wird, springt er zu einem zufälligen Ort. Dies wird dann als ein Punkt in unserem Scoreboard verzeichnet, welches wir durch “Variables” erstellt haben. 
+
 ![vier](https://user-images.githubusercontent.com/42579272/48915887-9d795800-ee80-11e8-9771-980bfa60e7d0.JPG)
+
 Da in dem Blocksystem von SNAP!, eine programmierte Zeile leicht nachzuvollziehen ist, ergibt sich weiteres aus den nebenstehenden Bildern. 
+
 ![eins](https://user-images.githubusercontent.com/42579272/48915856-820e4d00-ee80-11e8-9027-822efd05e3fc.JPG)
 ![drei](https://user-images.githubusercontent.com/42579272/48915874-95211d00-ee80-11e8-8d70-112564cb440e.JPG)
 
 Das Tasten-Binding ist außerdem ein kleiner Teil unserer Spielstartmechanik, wenn Space gedrückt wird, werden die Befehle auf dem Bild ausgeführt. (siehe Bild)  
 
 Hier trat bereits das erste Problem auf, denn wenn man während des Spiels ausversehen “Space” drückt, wurde das Spiel neu gestartet. Dies konnten wir umgehen, indem ein Reset nur bei scoreboard=0 möglich ist. Später mussten wir darauf achten, dass bei jedem Command für Space einzubauen. Wenn man verliert wird der Score automatisch wieder auf null gestellt, so dass ein Neustarten möglich ist. 
+
 ![zwei](https://user-images.githubusercontent.com/42579272/48915870-90f4ff80-ee80-11e8-9971-8ae105163ca3.JPG)
  
  </details>
@@ -191,11 +193,13 @@ Hier trat bereits das erste Problem auf, denn wenn man während des Spiels ausve
   <summary>Genauer:</summary>
      Nachdem wir noch ein wenig am Grundkonzept gearbeitet haben, ging es darum das Spiel in der Gesamterscheinung angenehmer zu gestalten. Daher haben wir einen Anfangsbildschirm erstellt und die Funktion der Spacetaste weiter ausgebaut. Dies ging mit Hilfe der Broadcastfunktion. Wenn beispielsweise “Start game” gebroadcastet wird hören dies alle Sprites und können entsprechend reagieren.
         
-  ![funf](https://user-images.githubusercontent.com/42579272/48915894-a4a06600-ee80-11e8-8a94-e76c200965f9.JPG)
+![funf](https://user-images.githubusercontent.com/42579272/48915894-a4a06600-ee80-11e8-8a94-e76c200965f9.JPG)
 
 Auf dieser Grundlage haben wir die Begrüßung erarbeitet, wenn nun jemand das Spiel startet wird er nach seinem Namen gefragt und dann gefragt ob er bereits gespielt hat oder nicht. Dies hatten wir uns allerdings erst theoretisch überlegt, später ging dies mit Hilfe der Spielerliste. Wenn der Name in der Liste bereits vorhanden ist geht es weiter zum Spiel, aber wenn nicht erscheint, eine Frage welche man durch Klicken auf den Haken oder das Kreuz beantworten kann. Die beiden Symbole dafür sind Sprites und tauchen durch den Broadcast auf bzw. werden an ihrer Position nun sichtbar. (Space versteckt diese später wieder). Wenn man nun auf “Nein” klickt, wird man zum Tutorial weitergeleitet, welches wir am nächsten Tag umsetzen wollten. 
 
- Ebenso haben wir neue Level erstellt, so tauchen die Bälle beispielsweise schneller auf bzw. springen zu einem anderen Ort oder ändern ihre Größe, sowie Farbe. Dies ist je abhängig von der Punktzahl auf dem Scoreboard. Das Kostüm des Aliens kann sich dabei, je nach Punktzahl ebenfalls verändern. ![sechs](https://user-images.githubusercontent.com/42579272/48915903-a9fdb080-ee80-11e8-98ec-f2479f3b8c56.JPG)
+ Ebenso haben wir neue Level erstellt, so tauchen die Bälle beispielsweise schneller auf bzw. springen zu einem anderen Ort oder ändern ihre Größe, sowie Farbe. Dies ist je abhängig von der Punktzahl auf dem Scoreboard. Das Kostüm des Aliens kann sich dabei, je nach Punktzahl ebenfalls verändern. 
+ 
+ ![sechs](https://user-images.githubusercontent.com/42579272/48915903-a9fdb080-ee80-11e8-98ec-f2479f3b8c56.JPG)
  ![zehn](https://user-images.githubusercontent.com/42579272/48915943-c39ef800-ee80-11e8-9a24-1ae97d76a97d.JPG)
 
  </details>
