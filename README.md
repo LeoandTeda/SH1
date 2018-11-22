@@ -21,14 +21,7 @@ Offizielles Logo des Onlinekurses
 3. [Weiteres](#h3)
 
 ---------------------------------------------------
-To Do: 
-- [x] Überschrift
-- [ ] Vollständiges Inhaltsverzeichnis
-- [x] Bild einfügen ![BJC logo] (image/BJC logo.jpg)
-- [ ] evtl in Stundenprotokollen von Stickpunkten zu Text wechseln
-- [ ] besprechen: wie viel Text, wie viel berichten wir über die einzelnen Projekte und was wir da gemacht haben
-- [ ] Weiteres hier reinschreiben 
-
+Direkt zu BJC:
         
 [Zu Snap! BJC](http://snap.berkeley.edu/run)
 
@@ -42,7 +35,7 @@ Jedes Stundenprotokoll enthält, zur besseren Übersicht, eine Kurzfassung in Fo
 </details>
 
 ## Stundenprotokolle: <a name="h2"></a>         
-### 21.August, Dienstag <a name="s1"></a>
+### 21.August <a name="s1"></a>
 
  * Erste Informatikstunde
   * Einführung durch Herrn Buhl
@@ -55,7 +48,7 @@ Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführu
 
 ---------------------------------------------------
 
-### 27. August, Montag <a name="s2"></a>
+### 27. August <a name="s2"></a>
   * Zuhause: Erkenntnis, dass BJOC ansprechend ist 
   * --> Überblick über BJOC, Erste Lektion
     * Dennoch “unsicher” --> Vergleich beider Programme 
@@ -74,7 +67,7 @@ Damit erhielten wir einen guten Überblick der einzelnen Programmmöglichkeiten,
 
 ---------------------------------------------------
 
- ### 28. August, Dienstag <a name="s3"></a>
+ ### 28. August <a name="s3"></a>
   * Entgültige Entscheidung für BJC
   * Kursbeginn U1L1
   * GitHub Konzept
@@ -102,7 +95,7 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
     
 ---------------------------------------------------
  
- ### 10. September, Montag <a name="s4"></a>
+ ### 10. September <a name="s4"></a>
   * Arbeit an BJC
   * GitHub: Dokumentation
  <details>
@@ -116,7 +109,7 @@ Bei GitHub war außerdem wichtig, wie man die richtige Schriftgröße auswählt,
  
 ---------------------------------------------------
  
- ### 11. September, Montag <a name="s5"></a>
+ ### 11. September <a name="s5"></a>
  * Reflektion über Kurs, Arbeit daran 
    * Vor und Nachteile 
  * Umsetzung der GitHub Ideen 
@@ -131,7 +124,7 @@ Die Dokumentation betreffend haben wir unsere theoretischen Ideen für GitHub um
  
 ---------------------------------------------------
 
- ### 17. September, Montag <a name="s6"></a>
+ ### 17. September <a name="s6"></a>
  * Arbeit am Kurs
    * Blocksystem, keine Syntaxfehler 
  <details>
@@ -143,7 +136,7 @@ Da es bei BJC vor allem um die Entwicklung eines Grundverständnisses geht, kön
  
 ---------------------------------------------------
  
- ### 18.September, Dienstag <a name="s7"></a>
+ ### 18.September <a name="s7"></a>
 
  * Arbeit am Kurs 
  * Beschäftigung mit GitHub 
@@ -164,7 +157,7 @@ Wir bereits an manchen Tagen angeklungen, ist der BJC-Kurs sehr kleinschrittig u
  </details>     <hr>
 
  
-  ### 22. Oktober, Montag <a name="s8"></a>
+  ### 22. Oktober <a name="s8"></a>
  
  * Idee: Eigenes Spiel entwickeln 
    * Umsetzung der erlangten Kenntnisse 
@@ -191,7 +184,7 @@ Hier trat bereits das erste Problem auf, denn wenn man während des Spiels ausve
  
 ---------------------------------------------------
  
-  ### 23. Oktober, Dienstag <a name="s9"></a>
+  ### 23. Oktober <a name="s9"></a>
  * Weitere Level
  * Ablauf vor Spielbeginn
  <details>
@@ -209,7 +202,7 @@ Auf dieser Grundlage haben wir die Begrüßung erarbeitet, wenn nun jemand das S
  
 ---------------------------------------------------
  
- ### 29. Oktober, Montag <a name="s10"></a>
+ ### 29. Oktober <a name="s10"></a>
  * Weiterentwicklung des Spiels
    * Tutorial erstellt
    * Steuerungstest
@@ -229,7 +222,7 @@ Der Gesamtverlauf des Tutorials lässt sich sehr gut am Code nachvollziehen. (si
  
 ---------------------------------------------------
 
- ### 30. Oktober, Dienstag <a name="s11"></a>
+ ### 30. Oktober <a name="s11"></a>
  * Arbeit am Spiel
    * Glide-Problematik
    * Uhr im Hintergrund
@@ -254,7 +247,7 @@ Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, wesha
  </details>   <hr>
  
 
-### 06. November, Dienstag <a name="s12"></a>
+### 06. November <a name="s12"></a>
  * Neue, möglichst endgültige Strukturierung GitHubs
    * Zusammenfassen aller Infos
  * Weiterentwicklung des Spiels
@@ -264,7 +257,7 @@ Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, wesha
  </details>   <hr>
  
 
-### 12. November, Dienstag <a name="s13"></a>
+### 12. November <a name="s13"></a>
  * Weitere Entwicklung des Spiels
    * Problematik/Herausforderungen
    * Antialien
@@ -277,7 +270,7 @@ Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, wesha
  </details>  <hr>
  
  
- ### 13. November, Dienstag <a name="s14"></a>
+ ### 13. November <a name="s14"></a>
  * Arbeit am Spiel, Ziel auf "Fertigstellung"
    * Testphase
  <details>
@@ -288,7 +281,16 @@ Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, wesha
  
  
   ## Weiteres <a name="h3"></a>
-  Commands zum Einfügen: (meist nur beim Bearbeiten sichtbar) 
+ To-Do Liste:
 <details>
   <summary>Text</summary>   
+    
+ To Do: 
+- [x] Überschrift
+- [ ] Vollständiges Inhaltsverzeichnis
+- [x] Bild einfügen ![BJC logo] (image/BJC logo.jpg)
+- [ ] evtl in Stundenprotokollen von Stickpunkten zu Text wechseln
+- [ ] besprechen: wie viel Text, wie viel berichten wir über die einzelnen Projekte und was wir da gemacht haben
+- [ ] Weiteres hier reinschreiben 
+
 </details>
