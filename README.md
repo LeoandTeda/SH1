@@ -50,7 +50,7 @@ Jedes Stundenprotokoll enthält, zur besseren Übersicht, eine Kurzfassung in Fo
   * Leitfaden ink. Erwartung, Möglichkeiten
 <details>
   <summary>Genauer</summary>      
-Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführung in den Informatikunterricht und sein Unterrichtskonzept gegeben. In seinem Leitfaden waren einige Programme vorgeschlagen, von denen uns **"Greenfoot"** und **"The beauty and Joy of Computing"** _(im folgenden **"BJC"**)_ am meisten zusagten. Die kurze restliche Zeit haben wir genutzt um uns ein bisschen auf GitHub, sowie den Programmierseiten umzuschauen. Gespannt auf die nächste Stunde haben wir uns vorgenommen, die einzelnen Möglichkeiten genauer zu betrachten.
+Heute hatten wir unsere erste Informatikstunde. Herr Buhl hat uns eine Einführung in den Informatikunterricht und sein Unterrichtskonzept gegeben. In seinem Leitfaden waren einige Programme vorgeschlagen, von denen uns "Greenfoot" und "The beauty and Joy of Computing" (im folgenden "BJC") am meisten zusagten. Die kurze restliche Zeit haben wir genutzt um uns ein bisschen auf GitHub, sowie den Programmierseiten umzuschauen. Gespannt auf die nächste Stunde haben wir uns vorgenommen, die einzelnen Möglichkeiten genauer zu betrachten.
         </details>
 
 ---------------------------------------------------
@@ -88,7 +88,7 @@ Da wir beide wenig Vorkenntnisse im Programmieren haben und bisher nur die "Nutz
 
 Wir haben dann auch direkt mit dem Kurs und **Unit 1 Lab 1** begonnen. Nachdem wir einen Account erstellt und uns eingeloggt haben, ging es damit los unsere erste Spielfigur, ein "Sprite" zu erstellen. Dafür haben wir aus den vorgegebenen Kostümen für das "Alonzo" Kostüm entschieden und es als Bild für unser Sprite ausgewählt<details> 
 
-        <summary>Sprite</summary> 
+   <summary>Sprite</summary> 
 
 Ein Sprite (engl. unter anderem für ein Geistwesen, Kobold) ist ein Grafikobjekt, das von der Grafikhardware über das Hintergrundbild bzw. den restlichen Inhalt der Bildschirmanzeige eingeblendet wird. Die Positionierung wird dabei komplett von der Grafikhardware erledigt. (- Wikipedia) 
 
@@ -176,11 +176,17 @@ Wir bereits an manchen Tagen angeklungen, ist der BJC-Kurs sehr kleinschrittig u
 
 Unsere sehr grobe Spielidee war, dass man ein “Alien” steuert und einzelnen, zufällig erscheinenden Bällen für Punkte nachjagt.  
 
-Zuerst entwickelten wir daher die Grundsteuerung. Dies war einfach umzusetzen, indem man einer bestimmten Taste eine Aktion zuordnet. Außerdem haben wir die Grundlage des Codes für den Ball erstellt. Wenn dieser berührt wird, springt er zu einem zufälligen Ort. Dies wird dann als ein Punkt in unserem Scoreboard verzeichnet, welches wir durch “Variables” erstellt haben. (Bild 4) Da in dem Blocksystem von SNAP!, eine programmierte Zeile leicht nachzuvollziehen ist, ergibt sich weiteres aus den nebenstehenden Bildern. (Bild 1) (Bild3)  
+Zuerst entwickelten wir daher die Grundsteuerung. Dies war einfach umzusetzen, indem man einer bestimmten Taste eine Aktion zuordnet. Außerdem haben wir die Grundlage des Codes für den Ball erstellt. Wenn dieser berührt wird, springt er zu einem zufälligen Ort. Dies wird dann als ein Punkt in unserem Scoreboard verzeichnet, welches wir durch “Variables” erstellt haben. 
+![vier](https://user-images.githubusercontent.com/42579272/48915887-9d795800-ee80-11e8-9771-980bfa60e7d0.JPG)
+Da in dem Blocksystem von SNAP!, eine programmierte Zeile leicht nachzuvollziehen ist, ergibt sich weiteres aus den nebenstehenden Bildern. 
+![eins](https://user-images.githubusercontent.com/42579272/48915856-820e4d00-ee80-11e8-9027-822efd05e3fc.JPG)
+![drei](https://user-images.githubusercontent.com/42579272/48915874-95211d00-ee80-11e8-8d70-112564cb440e.JPG)
 
 Das Tasten-Binding ist außerdem ein kleiner Teil unserer Spielstartmechanik, wenn Space gedrückt wird, werden die Befehle auf dem Bild ausgeführt. (siehe Bild)  
 
-Hier trat bereits das erste Problem auf, denn wenn man während des Spiels ausversehen “Space” drückt, wurde das Spiel neu gestartet. Dies konnten wir umgehen, indem ein Reset nur bei scoreboard=0 möglich ist. Später mussten wir darauf achten, dass bei jedem Command für Space einzubauen. Wenn man verliert wird der Score automatisch wieder auf null gestellt, so dass ein Neustarten möglich ist. (Bild 2) 
+Hier trat bereits das erste Problem auf, denn wenn man während des Spiels ausversehen “Space” drückt, wurde das Spiel neu gestartet. Dies konnten wir umgehen, indem ein Reset nur bei scoreboard=0 möglich ist. Später mussten wir darauf achten, dass bei jedem Command für Space einzubauen. Wenn man verliert wird der Score automatisch wieder auf null gestellt, so dass ein Neustarten möglich ist. 
+![zwei](https://user-images.githubusercontent.com/42579272/48915870-90f4ff80-ee80-11e8-9971-8ae105163ca3.JPG)
+ 
  </details>
  
 ---------------------------------------------------
@@ -190,11 +196,15 @@ Hier trat bereits das erste Problem auf, denn wenn man während des Spiels ausve
  * Ablauf vor Spielbeginn
  <details>
   <summary>Genauer:</summary>
-     Nachdem wir noch ein wenig am Grundkonzept gearbeitet haben, ging es darum das Spiel in der Gesamterscheinung angenehmer zu gestalten. Daher haben wir einen Anfangsbildschirm erstellt und die Funktion der Spacetaste weiter ausgebaut. Dies ging mit Hilfe der Broadcastfunktion. Wenn beispielsweise “Start game” gebroadcastet wird hören dies alle Sprites und können entsprechend reagieren. (Bild 5) 
+     Nachdem wir noch ein wenig am Grundkonzept gearbeitet haben, ging es darum das Spiel in der Gesamterscheinung angenehmer zu gestalten. Daher haben wir einen Anfangsbildschirm erstellt und die Funktion der Spacetaste weiter ausgebaut. Dies ging mit Hilfe der Broadcastfunktion. Wenn beispielsweise “Start game” gebroadcastet wird hören dies alle Sprites und können entsprechend reagieren.
+        
+  ![funf](https://user-images.githubusercontent.com/42579272/48915894-a4a06600-ee80-11e8-8a94-e76c200965f9.JPG)
 
 Auf dieser Grundlage haben wir die Begrüßung erarbeitet, wenn nun jemand das Spiel startet wird er nach seinem Namen gefragt und dann gefragt ob er bereits gespielt hat oder nicht. Dies hatten wir uns allerdings erst theoretisch überlegt, später ging dies mit Hilfe der Spielerliste. Wenn der Name in der Liste bereits vorhanden ist geht es weiter zum Spiel, aber wenn nicht erscheint, eine Frage welche man durch Klicken auf den Haken oder das Kreuz beantworten kann. Die beiden Symbole dafür sind Sprites und tauchen durch den Broadcast auf bzw. werden an ihrer Position nun sichtbar. (Space versteckt diese später wieder). Wenn man nun auf “Nein” klickt, wird man zum Tutorial weitergeleitet, welches wir am nächsten Tag umsetzen wollten. 
 
- Ebenso haben wir neue Level erstellt, so tauchen die Bälle beispielsweise schneller auf bzw. springen zu einem anderen Ort oder ändern ihre Größe, sowie Farbe. Dies ist je abhängig von der Punktzahl auf dem Scoreboard. Das Kostüm des Aliens kann sich dabei, je nach Punktzahl ebenfalls verändern. (Bild 6,10)  
+ Ebenso haben wir neue Level erstellt, so tauchen die Bälle beispielsweise schneller auf bzw. springen zu einem anderen Ort oder ändern ihre Größe, sowie Farbe. Dies ist je abhängig von der Punktzahl auf dem Scoreboard. Das Kostüm des Aliens kann sich dabei, je nach Punktzahl ebenfalls verändern. ![sechs](https://user-images.githubusercontent.com/42579272/48915903-a9fdb080-ee80-11e8-98ec-f2479f3b8c56.JPG)
+ ![zehn](https://user-images.githubusercontent.com/42579272/48915943-c39ef800-ee80-11e8-9a24-1ae97d76a97d.JPG)
+
  </details>
  
 ---------------------------------------------------
@@ -205,11 +215,16 @@ Auf dieser Grundlage haben wir die Begrüßung erarbeitet, wenn nun jemand das S
    * Steuerungstest
  <details>
   <summary>Genauer:</summary>
-     Um ein anschauliches Tutorial, neben den einzelnen Textbasierten Informationen, zu gestalten waren viele Broadcasts nötig. Wenn beispielsweise das “Alien” oder Ball vorgestellt wird, sollte dies auftauchen. Der Ball erscheint an einer festgelegten Koordinate und mit einer bestimmten Größe für, in diesem Fall, 9 Sekunden. (Bild 7) 
+     Um ein anschauliches Tutorial, neben den einzelnen Textbasierten Informationen, zu gestalten waren viele Broadcasts nötig. Wenn beispielsweise das “Alien” oder Ball vorgestellt wird, sollte dies auftauchen. Der Ball erscheint an einer festgelegten Koordinate und mit einer bestimmten Größe für, in diesem Fall, 9 Sekunden. 
+        
+![sieben](https://user-images.githubusercontent.com/42579272/48915909-ad913780-ee80-11e8-97da-ff0693b16cc1.JPG)
+![neun](https://user-images.githubusercontent.com/42579272/48915928-bbdf5380-ee80-11e8-9ff2-bdfa08309794.JPG)
 
 Eine Besonderheit an unserem Tutorial besteht (im unteren Bild ab “say Probiers doch gleich mal aus for 7secs”) darin, dass der Spieler vor Spielbeginn einmal die Steuerung unseres Aliens ausprobiert haben muss. Ansonsten wird, mithilfe einer Infinite Clock diese Aufgabe solange wiederholt bis man alle benötigten Tasten (Inputs) einmal gedrückt hat. Am Ende des Tutorials werden dann alle Variablen, für eine einwandfreie Funktionsweise des Spiels, zurückgesetzt. 
 
-Der Gesamtverlauf des Tutorials lässt sich sehr gut am Code nachvollziehen. (siehe Bild) (Bild 8,9) 
+Der Gesamtverlauf des Tutorials lässt sich sehr gut am Code nachvollziehen. (siehe Bild) 
+![acht](https://user-images.githubusercontent.com/42579272/48915916-b4b84580-ee80-11e8-8a0c-b66bbefe1c8a.JPG)
+
  </details>
  
 ---------------------------------------------------
@@ -220,13 +235,20 @@ Der Gesamtverlauf des Tutorials lässt sich sehr gut am Code nachvollziehen. (si
    * Uhr im Hintergrund
  <details>
   <summary>Genauer:</summary>
-     Eine der Herausforderungen bei SNAP! bestand darin, dass man als Spieler teilweise -”unerlaubt”-viele Punkte auf einmal erzielen konnte. Um diesen Bug zu verstehen muss, man das Spielkonzept verstanden haben. Immer, wenn ein Ball von unserem “Wesen” eingesammelt wird, springt dieser zu einem zufälligen Ort auf unserem Koordinatensystem. In einem neuen “Level” soll unser Ball nun jedoch gleitet. Dadurch konnte man je nach Richtung 20 oder mehr auf Punkte auf einmal erhalten. Um dies zu verhindern, haben wir anfangs einen gewissen Delay beim Scoreboard eingebaut, dadurch wurde im Falle eines weiteren Kontakts einfach kein neuer Punkt gegeben. (Bild11) 
-
+     Eine der Herausforderungen bei SNAP! bestand darin, dass man als Spieler teilweise -”unerlaubt”-viele Punkte auf einmal erzielen konnte. Um diesen Bug zu verstehen muss, man das Spielkonzept verstanden haben. Immer, wenn ein Ball von unserem “Wesen” eingesammelt wird, springt dieser zu einem zufälligen Ort auf unserem Koordinatensystem. In einem neuen “Level” soll unser Ball nun jedoch gleitet. Dadurch konnte man je nach Richtung 20 oder mehr auf Punkte auf einmal erhalten. Um dies zu verhindern, haben wir anfangs einen gewissen Delay beim Scoreboard eingebaut, dadurch wurde im Falle eines weiteren Kontakts einfach kein neuer Punkt gegeben. 
+  
+![elf](https://user-images.githubusercontent.com/42579272/48915952-c994d900-ee80-11e8-9103-89a1178ecf9b.JPG)
+ 
 Dies entpuppte sich später allerdings nur als Maßnahme um unser Problem zu umgehen, nicht jedoch als vollständige Lösung. Der eigentliche Bug besteht darin, dass sich beim Gleiten, der Ball in sehr vielen kleinen Schritten teleportiert. Wenn nun der Befehl ausgeführt wird, dass das Objekt zu einem zufälligen Ort springen soll, passiert dies nur ganz kurz, danach jedoch kehrt der Ball direkt wieder zum Gleiten zurück. Es scheint, als würde sich der Befehl “glide to …” über die anderen Prozesse schieben bzw. länger andauern. Leider war/ist “glide to...” die einzige Möglichkeit in BJOC eine flüssige Bewegung zu erzeugen. 
 
 Da wir diesen jedoch Bug nicht im Spiel haben wollten, haben wir uns im Nachhinein dazu entschieden beim Teleportieren zu bleiben. Daher haben wir die “Go to Random Position” bei höherem Score beschleunigt.  
 
-Um später vergleichen zu können wer die 40 Bälle am schnellsten eingesammelt hat. Haben wir eine Uhr programmiert, die versteckt im Hintergrund läuft. Bei Spielbeginn startet diese automatisch. (Bild13) Wenn ein Spieler 40 Punkte erreicht hat erscheint: Glückwunsch etc. Und der score wird versteckt, sowie um einen Punkt erhöht. Denn bei 41 Punkten wird die Uhr beendet und die Punkte werden angezeigt (Bild 12) 
+Um später vergleichen zu können wer die 40 Bälle am schnellsten eingesammelt hat. Haben wir eine Uhr programmiert, die versteckt im Hintergrund läuft. Bei Spielbeginn startet diese automatisch. 
+![dreizehn](https://user-images.githubusercontent.com/42579272/48915985-dfa29980-ee80-11e8-9bd4-68d916d1dc1d.JPG)
+
+Wenn ein Spieler 40 Punkte erreicht hat erscheint: Glückwunsch etc. Und der score wird versteckt, sowie um einen Punkt erhöht. Denn bei 41 Punkten wird die Uhr beendet und die Punkte werden angezeigt. 
+
+![zwolf](https://user-images.githubusercontent.com/42579272/48915968-d4e80480-ee80-11e8-9e5d-87ebfe32fb37.JPG)
 
 Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, weshalb man zu einer vollständigen Übersicht in den rohen Code schauen sollte. (Link einfügen) 
  </details>   <hr>
@@ -239,9 +261,8 @@ Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, wesha
  <details>
   <summary>Genauer:</summary>
      Da sich nun bereits viele neue Informationen angesammelt hatten, wollten wir unser GitHub Konzept erneuern.  Daher haben die wir die Seite neu strukturiert, so dass man bspw. in unserem Inhaltsverzeichnis einfach einen Tag anklicken kann um dann direkt dorthin weitergeleitet zu werden. Ebenfalls haben wir unsere Inhalte zusammengetragen und somit die Seite auf einen aktuellen Stand gebracht, insbesondere um die Menge an Text abschätzen zu können, und einen besseren Gesamtüberblick über unsere bisherige Arbeit zu erhalten. 
- </details>
+ </details>   <hr>
  
----------------------------------------------------
 
 ### 12. November, Dienstag <a name="s13"></a>
  * Weitere Entwicklung des Spiels
@@ -249,11 +270,15 @@ Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, wesha
    * Antialien
  <details>
   <summary>Genauer:</summary>
-      Über die vorhergegangene Woche hatten wir uns überlegt das Spiel um einen weiteren Kandidaten zu ergänzen. Ab einer bestimmten Punkteanzahl erscheint nun das sogenannte Anti-Alien, welches den Erzfeind unseres Aliens darstellt. Bei Kontakt beider Figuren ist das Spiel sofort zu Ende (ebenfalls mit Hilfe eines Broadcast). In einem solchen Fall erscheint ein Game Over Screen und im Hintergrund wir der Score auf 41 gesetzt, so dass die Clock ebenfalls beendet wird. Hier war die Herausforderung den Code des Anti-Aliens so zu gestalten, dass das Pathing angemessen ist; nicht zu schwer und dennoch zufällig. Auf dem nebenstehenden Bild ist ein Ausschnitt des Anti-Alien Codes zu sehen. Bild14
+      Über die vorhergegangene Woche hatten wir uns überlegt das Spiel um einen weiteren Kandidaten zu ergänzen. Ab einer bestimmten Punkteanzahl erscheint nun das sogenannte Anti-Alien, welches den Erzfeind unseres Aliens darstellt. Bei Kontakt beider Figuren ist das Spiel sofort zu Ende (ebenfalls mit Hilfe eines Broadcast). In einem solchen Fall erscheint ein Game Over Screen und im Hintergrund wir der Score auf 41 gesetzt, so dass die Clock ebenfalls beendet wird. Hier war die Herausforderung den Code des Anti-Aliens so zu gestalten, dass das Pathing angemessen ist; nicht zu schwer und dennoch zufällig. Auf dem nebenstehenden Bild ist ein Ausschnitt des Anti-Alien Codes zu sehen. 
+        
+![vierzehn](https://user-images.githubusercontent.com/42579272/48915991-e4674d80-ee80-11e8-9e7d-cb1a33b64bc0.JPG)
+
  </details>  <hr>
  
+ 
  ### 13. November, Dienstag <a name="s14"></a>
- * Arbeit am SPiel, Ziel auf "Fertigstellung"
+ * Arbeit am Spiel, Ziel auf "Fertigstellung"
    * Testphase
  <details>
   <summary>Genauer:</summary>
