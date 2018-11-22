@@ -60,10 +60,8 @@ Dennoch nahmen wir uns beide vor, bis nächste Woche zuhause weitere Information
 
 Damit erhielten wir einen guten Überblick der einzelnen Programmmöglichkeiten, um diese dann vergleichen und abwägen zu können. Auf GitHub gab es ebenfalls einige Referenzen um zu sehen, was alles möglich ist.   
 </details>
-</details>
+</details>     <hr>
  
-
----------------------------------------------------
 
  ### 28. August <a name="s3"></a>
   * Entgültige Entscheidung für BJC
@@ -89,9 +87,9 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 
  </details>
        
- </details>
+ </details>   <hr>
     
----------------------------------------------------
+
  
  ### 10. September <a name="s4"></a>
   * Arbeit an BJC
@@ -103,9 +101,8 @@ Wir haben zwei dieser Alonzo Costums erstellt und so editiert, dass Alonzo sich 
 Danach haben wir uns mit GitHub beschäftigt, vor allem mit der Frage wie wir unser Stundenprotokoll strukturieren wollen. Nach Herausarbeitung einer Konzeptidee diskutierten wir, wie dies am besten um zusetzen ist. Da wir in den einzelnen Informatikstunden meist nur wenig Zeit für die Arbeit am Projekt und die Dokumentation haben, entschieden wir uns dafür möglichst am Ende jeder Stunde nur kurz stichwortartig den Inhalt festzuhalten, um dies später dann weiter auszuführen. 
 
 Bei GitHub war außerdem wichtig, wie man die richtige Schriftgröße auswählt, Bilder einfügt, Leerzeilen und vieles mehr im Code macht, schließlich soll die Seite am Ende auch visuell ansprechend sein.        
- </details>
+ </details>   <hr>
  
----------------------------------------------------
  
  ### 11. September <a name="s5"></a>
  * Reflektion über Kurs, Arbeit daran 
@@ -118,9 +115,9 @@ Bei GitHub war außerdem wichtig, wie man die richtige Schriftgröße auswählt,
    Nach weiterer Arbeit am Kurs, heute ging es beispielsweise um das Grüßen von Spielern. Also die Beziehung zwischen einzelnen Blöcken, sowie die “if-Blöcke” und das zufällige Auswählen einzelner Aktionen. Der Kurs bietet viele Grundinformationen, die meist sehr detailliert dargestellt sind. Das ist zwar gut um etwas neues wirklich zu verstehen, doch teilweise auch etwas langatmig. 
 
 Die Dokumentation betreffend haben wir unsere theoretischen Ideen für GitHub umgesetzt. Außerdem erstellten wir uns eine ToDo-Liste auf der GitHub Seite, damit wir effektiver unsere Ziele erreichen. Oft hat man zuhause etwas am Informatikprojekt gemacht, und um sich dann mit dem Partner abzusprechen half ein einfacher Haken auf der GitHub-Seite.     
- </details>
+ </details>  <hr>
  
----------------------------------------------------
+
 
  ### 17. September <a name="s6"></a>
  * Arbeit am Kurs
@@ -130,9 +127,9 @@ Die Dokumentation betreffend haben wir unsere theoretischen Ideen für GitHub um
      Heute ging es weiter am Kurs, zur Thematik Listen. Also beispielsweise wie eine Datenreihe strukturiert und in Tabellenform aufgestellt wird. Oder wie man aus vielen Informationen eine einzelne heraussuchen kann. Da wir momentan auch an GitHub gearbeitet hatten, fällt einem schnell auf das Syntaxfehler sehr nerven können. Das Blocksystem in BJC schien zwar anfangs etwas “einfach” auf uns, jedoch stellte sich dies als sehr effektiv zur Vermeidung unnötiger Fehler heraus. 
 
 Da es bei BJC vor allem um die Entwicklung eines Grundverständnisses geht, können Syntaxfehler sehr hinderlich sein. Wenn eine Codezeile richtig ist, diese jedoch nur durch ein fehlendes Komma nicht funktioniert kann man daraus schnell falsche Schlüsse ziehen bzw. viel Zeit damit verbringen diesen einfachen Fehler ausfindig zu machen. 
- </details>
+ </details>   <hr>
  
----------------------------------------------------
+
  
  ### 18.September <a name="s7"></a>
 
@@ -182,9 +179,8 @@ Hier trat bereits das erste Problem auf, denn wenn man während des Spiels ausve
 
 ![zwei](https://user-images.githubusercontent.com/42579272/48915870-90f4ff80-ee80-11e8-9971-8ae105163ca3.JPG)
  
- </details>
+ </details>    <hr>
  
----------------------------------------------------
  
   ### 23. Oktober <a name="s9"></a>
  * Weitere Level
@@ -202,9 +198,9 @@ Auf dieser Grundlage haben wir die Begrüßung erarbeitet, wenn nun jemand das S
  ![sechs](https://user-images.githubusercontent.com/42579272/48915903-a9fdb080-ee80-11e8-98ec-f2479f3b8c56.JPG)
  ![zehn](https://user-images.githubusercontent.com/42579272/48915943-c39ef800-ee80-11e8-9a24-1ae97d76a97d.JPG)
 
- </details>
+ </details>    <hr>
  
----------------------------------------------------
+
  
  ### 29. Oktober <a name="s10"></a>
  * Weiterentwicklung des Spiels
@@ -222,7 +218,7 @@ Eine Besonderheit an unserem Tutorial besteht (im unteren Bild ab “say Probier
 Der Gesamtverlauf des Tutorials lässt sich sehr gut am Code nachvollziehen. (siehe Bild) 
 ![acht](https://user-images.githubusercontent.com/42579272/48915916-b4b84580-ee80-11e8-8a0c-b66bbefe1c8a.JPG)
 
- </details>
+ </details>   <hr>
  
 ---------------------------------------------------
 
@@ -280,7 +276,7 @@ Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, wesha
  <details>
   <summary>Genauer:</summary>
      In dem uns gegebenen Zeitrahmen hatten wir die Möglichkeit einiges an unserem Spiel zu programmieren, so dass es nun bereits als eigenständiges Produkt “spielbar” ist. Jedoch hätten wir viele weitere Ideen gerne umgesetzt um es für den Spieler attraktiver zu machen und mehr unserer gewonnen Kenntnisse darin einfließen zu lassen. Dennoch ist uns, dass man dies nahezu ewig weiterführen kann, weshalb wir in unserer freien Zeit, nach Projektabgabe garantiert noch weitere Dinge hinzufügen werden.  
- </details>
+ </details>    <hr>
  
  
  
