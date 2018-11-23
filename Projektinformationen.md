@@ -125,7 +125,9 @@ Ein control block, der sich so lange wiederholt, bis der score den Wert 41 errei
   
   #### score <a name="score"></a> <a name="score-Erklärung"></a>
   "score" ist eine Variable, welche dem Spieler nach Spielbeginn angezeigt wird. Sie wird erhöht, wenn es dem Spieler gelingt, denn Ball einzusammeln/zu berühren. Bei einem score von 40 hat der Spieler das Spiel gewonnen, siehe [Spieler gewinnt](#Spieler-gewinnt)
+  Im code wird das realisiert indem ein control Block die "score" variable um den Wert "1" erhöht, wenn er "Alien" berührt.
   
+  ![screenshot 2018-11-23 21 56 50](https://user-images.githubusercontent.com/42579272/48960150-d1c94300-ef6a-11e8-8c8b-107e0b11044d.png)
   
   #### Spieler gewinnt <a name="Spieler-gewinnt"></a>
 Der Spieler gewinnt wenn die "score" Variable den Wert 40 erreicht hat. Die "score" Variable wird immer dann erhöht, wenn "Alien" "Ball" berührt. Mehr dazu in [score](#score). Hat der score den Wert 40 wird der ein Block aktiviert, welcher dem Spieler gratuliert. Danach wird der bereits erwähnte Sekundenzeiger angehalten, indem zur variable "score" 1 hinzugefügt wird, nachdem diese versteckt wurde, um zu verhindern, dass der Spieler vorgänge im Hintergrund bemerkt. Dem Spieler wird daraufhin die Zeit in Sekunden aufgelistet, indem die "Zeit" variable angezeigt wird. Danach gibt ein Broadcaster "Spieler gewinnt" aus, was einer der "reset" Signale ist, wodurch das Spiel für eine neue Runde in den Grundzustand versetzt wird. So, als ob man die Grüne Fahne drücken würde.
@@ -136,22 +138,47 @@ Der Spieler gewinnt wenn die "score" Variable den Wert 40 erreicht hat. Die "sco
 
 
 ### 3.Sprites:
-* Alien <a name="Spielerliste"></a>
-* Ball
-* Anti-Alien
-* Anti-Alien 2 (mini)
-* Anti-Alien 3 (mini)
-* Random Laufender
+#### Ball
+Ein wichtiger Aspekt des Balls ist, dass er zu einem neuen Standort wechselt, wenn er vom Spieler berührt wird. Dies wurde mit einem control-Block umgesetzt, der einen goto "random position" motion-Block auslöst, wenn Ball von "Alien" berührt wird. Am ende wartet der Block den Bruchteil einer Sekunde, um sicherzustellen, dass die Teleportation nicht zweimal durch schnelles klicken des Spielers ausgelöst wird.
+
+![screenshot 2018-11-23 22 07 01](https://user-images.githubusercontent.com/42579272/48960369-51a3dd00-ef6c-11e8-9dd6-51362eb22b0d.png)
+
+Um die Schwierigkeit bei höherem score zu erhöhen, fängt der Ball ab einem score von 10 an, sich auf der Map zu teleportieren, auch wenn der Spieler ihn nicht berührt. Die Zeitabstände zwischen den teleportationen werden dabei bei höheren scores immer niedriger.
+Dies ist im code so umgesetzt, dass ein control-block, wenn Alien berührt wird überprüft, ob der score höher ist als "9". Ist das der Fall, wird ein Block aktiviert der sich so lange wiederholt, bis der score größer ist, als 20. Dieser "repeat until" Block enthält den Befehl, zu einer zufälligen Position zu gehen, 3 Sekunden zu warten, um danach wieder zu einer zufälligen Position zu gehen. Berührt der Ball an der Position allerdings Alien, weil er sich zufällig zu dessen genauem Aufenthaltsort teleportiert hat, ist durch ein weiteres "if" touching Alien sichergestellt, dass der Ball seine Position erneut anpasst.
+
+![screenshot 2018-11-23 22 14 18](https://user-images.githubusercontent.com/42579272/48960469-2241a000-ef6d-11e8-8ff8-836cd394d493.png)
+
+Ab einem Score von 11 wechselt der Ball zu anderen größen, die Zufällig ausgewählt werden.
+dies funktioniert mit der bekannten score Überprüfung und einem "Zufallsgenerator", der aus einer zufälligen Zahl zwischen 60 und 110 wählt und die größe des Sprites auf diesen Wert in Prozent setzt.
+Außerdem wird das Kostüm geändert.
+
+![screenshot 2018-11-23 22 16 01](https://user-images.githubusercontent.com/42579272/48960526-954b1680-ef6d-11e8-9332-b2badff768d5.png)
+
+#### Alien <a name="Alien"></a>
+Alien wechselt bei gewissen score Werten sein Kostüm um den Fortschritt des Spielers zu visualisieren. Dies wird mit der bekannten score-Abfrage in Kombination mit einer spezifischen Kostümsauswahl erreicht.
+
+![screenshot 2018-11-23 22 19 09](https://user-images.githubusercontent.com/42579272/48960555-cf1c1d00-ef6d-11e8-82df-c32004d3f6a8.png)
+
+#### Anti-Alien
+
+
+#### Anti-Alien 2 (mini)
+
+
+#### Anti-Alien 3 (mini)
+
+
+#### Random Laufender
 
 ### 4.Herausforderungen
 4.1 Glide-Problematik
-  * Scorepunkte
+ #### ?
 4.2 Steuerungsdefizit
-  * a, und d nur Blickrichtung
+  #### a, und d nur Blickrichtung
   
 
 ### 5.Fazit
-* Ausblick
+#### Ausblick
 
 
 
