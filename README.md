@@ -240,6 +240,7 @@ Um später vergleichen zu können wer die 40 Bälle am schnellsten eingesammelt 
 ![dreizehn](https://user-images.githubusercontent.com/42579272/48915985-dfa29980-ee80-11e8-9bd4-68d916d1dc1d.JPG)
 
 Wenn ein Spieler 40 Punkte erreicht hat erscheint: Glückwunsch etc. Und der score wird versteckt, sowie um einen Punkt erhöht. Denn bei 41 Punkten wird die Uhr beendet und die Punkte werden angezeigt. 
+Wie bereits erwähnt haben wir zur Steuerung von vielen Spielmechaniken einen "if" block in Kombination mit einem "score" Wert genutzt. Also wenn der score größer ist als [xy], dann führe command [mn] aus. Gerade bei unserem Spiel bietet sich so eine vorgehensweise an, weil wir so basierend auf dem Spielfortschritt zum Beispiel unterschiedliche Schwierigkeiten einbauen konnten.
 
 ![zwolf](https://user-images.githubusercontent.com/42579272/48915968-d4e80480-ee80-11e8-9e5d-87ebfe32fb37.JPG)
 
