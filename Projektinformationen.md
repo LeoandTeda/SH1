@@ -62,8 +62,23 @@ Wird das rote X gedrückt, gibt ein Broadcaster "start tutorial" aus und das [Tu
 ![screenshot 2018-11-23 20 16 12](https://user-images.githubusercontent.com/42579272/48958008-a2133e80-ef5c-11e8-9475-7fb985dc2222.png)
 
 * Spielerliste <a name="Spielerliste"></a>
+In der Spielerliste werden die Namen aller Spieler gespeichert, die das Spiel gespielt und Ihren Namen eingetragen haben. Wird das Spiel lokal gespeichert, erkennt es die Spieler wieder und begrüßt sie zurück. Die Spielerliste wurde als Variable erstellt, um diesem Zweck zu dienen und wird dem Spieler nicht angezeigt. Die Variable wurde mit dem "set to" Block zu einer Liste umgewandelt.
 
-In der
+![screenshot 2018-11-23 20 24 50](https://user-images.githubusercontent.com/42579272/48958206-e0f5c400-ef5d-11e8-9d11-e40adeec75b1.png)
+
+* Spielbeginn <a name="Spielbeginn"></a>
+Das Spiel beginnt, wenn ein Broadcaster-Block "Start Game" ausgibt. Dies kann passieren, wenn
+- der Spieler das Tutorial beendet hat
+- der Spieler seinen bereits bekannten Namen eingibt
+- der SPieler einen neuen Namen eingibt, aber mit dem grünen Haken bestätigt, dass er mit den Spielmechaniken bereits vertraut ist.
+Wird "Start Game" signalisiert, spielen viele Prozesse gleichzeitig bei unterschiedlichen Sprites ab:
+- Der ["Ball"](#Ball) wechselt, wenn er "Start Game" empfängt zu seinem Standard-Kostüm, setzt seine Größe zur Normalgröße zurück, beendet die Unsichtbarkeit und begibt sich auf eine zufällige Position auf der Map.
+
+![screenshot 2018-11-23 20 29 54](https://user-images.githubusercontent.com/42579272/48958360-c112d000-ef5e-11e8-8931-4423dcda8b1d.png)
+
+- "Alien" richtet sich neutral aus, wenn er s
+
+
   * Tutorial <a name="h1"></a>
   * Game-Overscreen
   
