@@ -118,7 +118,7 @@ Ein control block, der sich so lange wiederholt, bis der score den Wert 41 errei
   
   ![screenshot 2018-11-23 21 20 39](https://user-images.githubusercontent.com/42579272/48959572-90cf2f80-ef66-11e8-94d5-7250f13e2dff.png)
   
-  #### Game Over Screen
+  #### Game Over Screen <a name="Game-over"></a>
   Wenn der Game Over Screen "Spieler verliert" empfängt zeigt er sich, um dem Spieler zu signalisieren, dass dieser verloren hat. Er setzt außerdem den Wert des scores auf "41", was den zuvor erklärten "Sekundenzeiger" anhält. Nach 8 Sekunden signalisiert er "Press Space" was das Spiel so in den Ursprungszustand versetzt, wie die grüne Fahne es tun würde, weil "press Space" einer der "reset" Signale ist. Zuletzt verschwindet der Game over screen wieder um das spiel nicht zu überdecken.
   
   ![screenshot 2018-11-23 21 37 13](https://user-images.githubusercontent.com/42579272/48959790-0daed900-ef68-11e8-828c-2af4702a4515.png)
@@ -160,15 +160,41 @@ Alien wechselt bei gewissen score Werten sein Kostüm um den Fortschritt des Spi
 ![screenshot 2018-11-23 22 19 09](https://user-images.githubusercontent.com/42579272/48960555-cf1c1d00-ef6d-11e8-82df-c32004d3f6a8.png)
 
 #### Anti-Alien
+Anti-Alien ist der Wiedersacher von Alien. Dieser Sprite ist das Hauptschiff und bewegt sich in der Diagonale von oben links nach unten rechts oder von unten links nach oben rechts. Bei höheren Score Werten kann er sich auf mittig hin und her bewegen.
+Im Code ist das wieder mit dem typischen if Block umgesetzt der immer den score abfragt, wenn der w key gedrückt wird. W wurde gewählt, weil dieser key sehr oft gedrückt wird. Wenn ein score größer als 34 erreicht ist wird der Block aktiviert und wiederholt bis ein score größer als 37 erreicht ist. In dem Block wählt ein Zufallsgenerator eine Zahl zwischen 1 und 10. ist das Ergebnis kleiner als 6 wird der wird der obere Weg aktiviert und der Anti-Alien gleitet von oben links nach unten rechts, ist das Ergebnis 6 oder größer wird der untere Teil aktiviert und der Anti-Alien gleitet von unten links nach oben rechts. Ansonten unterscheiden die Abschnitte sich aber nicht. 
+Der Alien setzt dann seine Größe zur Sicherheit nochmal auf gewünschte 30% und zeigt sich mit dem "show" Block. Daraufhin wartet das skript eine sekunde, um dem Spieler Zeit zu geben zu reagieren. Danach gleitet der Alien die Diagonale entlang und wartet dann eine zufällige Zeit zwischen 2 und 6 Sekunden.
 
+![screenshot 2018-11-23 22 52 51](https://user-images.githubusercontent.com/42579272/48961136-8b77e200-ef72-11e8-87f9-0c2c87cbd1d9.png)
+![screenshot 2018-11-23 22 52 59](https://user-images.githubusercontent.com/42579272/48961137-8e72d280-ef72-11e8-8b78-0717d51f4a39.png)
 
-#### Anti-Alien 2 (mini)
+Im 2. Bild ist ein sehr ähnlicher Block dargestellt, bei dem der Anti-Alien zusätzlich auch vertikal über das Spielfeld gleitet. Dieser wird erst bei einem höheren score als schwerer zu bewältigender Schwierigkeitsgrad eingesetzt und unterscheidet sich sont kaum vom ersten.
 
+Berührt der Spieler den Anti-Alien wird "Spieler verliert" signalisiert. Und das Spiel wird zurückgesetzt, siehe ["Game over screen"](#Game-over).
 
-#### Anti-Alien 3 (mini)
+![screenshot 2018-11-23 22 57 26](https://user-images.githubusercontent.com/42579272/48961216-28d31600-ef73-11e8-8282-b654b60d84d4.png)
 
+Anti-Alien beobachtet außerdem immer den Spieler.
+Das funktioniert, indem durch einen control block der motion block "point towards" Alien solange wiederholt wird, bis der score einen bestimmten Wert erreicht hat.
+
+![screenshot 2018-11-23 22 59 52](https://user-images.githubusercontent.com/42579272/48961271-81a2ae80-ef73-11e8-9cbf-bbf8d7b5a436.png)
+
+#### Anti-Alien 2 (mini) und Anti-Alien 3 (mini)
+Die beiden mini Anti Aliens sind sehr ähnlich strukturiert. Sie gleiten vertikal über das Spielfeld, berührt der Spieler sie, hat er verloren. 
+Die Umsetzung der Bewegung und der Auswahl der Richtung ist dabei identisch zur Umsetzung bei Anti-Alien. Der einzige unterscheid ist, dass diese mini-anti-aliens immer in die Richtung schauen, in die sie fliegen, was mit einem einfachen, in die anderen Blöcke eingebauten "point towards" motion Block in kombination mit der gewünschten Richtung realisiert wurde.
+
+![screenshot 2018-11-23 23 03 02](https://user-images.githubusercontent.com/42579272/48961353-f249cb00-ef73-11e8-9419-6148062d8893.png)
 
 #### Random Laufender
+der "random", also zufällig laufende Anti-Alien hat ein besonderes skript. Er bewegt sich stur geradeaus und prallt von Wänden ab(Einfallswinkel=Ausfallswinkel ;)), ändert nach einer Weile aber seine Richtung in Richtung des Aliens.
+Im code ist dieses Prinzip umgesetzt, dass der Alien sich durch bekanntes verwenden vom "if controlblock" in kombination mit einem score-Wert ab einem score von 25 dieser Alien zu x:200 und y:200 geht, was leicht außerhalb der Spielkarte liegt. Im gleichen Block ist ein "repeat until" block eingebaut der mit einem wait 8 sekunden Block dafür sorgt, dass der "random laufende" alle 8 sekunden in Richtung Alien schaut.
+
+![screenshot 2018-11-23 23 08 53](https://user-images.githubusercontent.com/42579272/48961435-ca0e9c00-ef74-11e8-87bd-31c2a3c42c3d.png)
+
+Ein weiterer Block sorgt dafür, dass der random laufende bei gleichen score werten mit gleicher "if" controlblock umsetzung bis zum erreichen von einem score über 39 und ab dem erreichen eines scores von 25 vorwärts läuft und von Wänden abprallt:
+
+![screenshot 2018-11-23 23 10 40](https://user-images.githubusercontent.com/42579272/48961453-0215df00-ef75-11e8-92ce-a2773f8ef4f1.png)
+
+Zusammen Sorgen diese Blöcke für ein auf der Position des Aliens basierendes, fast zufälliges Bewegungsmuster.
 
 ### 4.Herausforderungen
 4.1 Glide-Problematik
