@@ -15,7 +15,8 @@ blablli bli blub
 ## 2.Code
 2.1 Grundbefehle
   * Tastenbelegung 
- Mit den Kontrolltasten w,a,s,d,f kann der Spieler das Alien steuern. Mit w geht er vorwärts, mit a und d wechselt er die Blickrichtung und mit s bewegt er sich rückwärts. Drückt der Spieler f, kann er sich auf eine zufällige Stelle auf der Map teleportieren, diese Fähigkeit funktioniert allerdings nur 3x, siehe ["Flash"](#flash). 
+
+Mit den Kontrolltasten w,a,s,d,f kann der Spieler das Alien steuern. Mit w geht er vorwärts, mit a und d wechselt er die Blickrichtung und mit s bewegt er sich rückwärts. Drückt der Spieler f, kann er sich auf eine zufällige Stelle auf der Map teleportieren, diese Fähigkeit funktioniert allerdings nur 3x, siehe ["Flash"](#flash). 
 
 Im code sind diese Befehle mit einem control Block mit dem jeweiligen input ("when ... is pressed") und einem Motion block (move ... steps, turn ... degrees) umgesetzt.
   
@@ -24,7 +25,7 @@ Im code sind diese Befehle mit einem control Block mit dem jeweiligen input ("wh
   * Flash
   damit der flash Befehl nur 3x funktioniert, wird immer, wenn f gedrückt wird +1 zur Variable "flash" hinzugefügt. Aufgrund eines "if-blocks" wird der "goto" "random position" Block nur dann aktiviert, wenn der flash counter kleiner ist, als 3. Nach dem 3. Einsatz der teleportation ist der Wert für "flash" 3, wodurch der goto random position Block nicht mehr beim drücken von "f" ausgelöst wird.
   
-  ![screenshot 2018-11-23 20 32 28](https://user-images.githubusercontent.com/42579272/48958531-f370fd00-ef5f-11e8-80be-5245b3703f12.png)
+![screenshot 2018-11-23 20 39 57](https://user-images.githubusercontent.com/42579272/48958648-e3a5e880-ef60-11e8-88a7-785f9a587db0.png)
 
 
   * Stage
@@ -83,8 +84,9 @@ Wird "Start Game" signalisiert, spielen viele Prozesse gleichzeitig bei untersch
 
 ![screenshot 2018-11-23 20 29 54](https://user-images.githubusercontent.com/42579272/48958360-c112d000-ef5e-11e8-8931-4423dcda8b1d.png)
 
-- "Alien" wechselt ebenfalls zur neutralen Ausgangsposition, wenn es "Start Game" empfängt. Außerdem setzt der Block die Variable für "flash"
+- "Alien" wechselt ebenfalls zur neutralen Ausgangsposition, wenn es "Start Game" empfängt. Außerdem setzt der Block die Variable für "flash" auf 0, um dem Spieler zu Beginn jedes Spiels 3 Teleportationen freizuschalten.
 
+![screenshot 2018-11-23 20 32 28](https://user-images.githubusercontent.com/42579272/48958531-f370fd00-ef5f-11e8-80be-5245b3703f12.png)
 
   * Tutorial <a name="h1"></a>
   * Game-Overscreen
