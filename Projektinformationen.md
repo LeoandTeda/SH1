@@ -9,7 +9,7 @@ blablli bli blub
 
 ## 1.Einführung
 * Sinn des Spiels
-* Snap als Programmierplattform
+* Snap! ist eine blockbasierte Programmiersprache für Einsteiger. Der Vorteil an solchen Programmierumgebungen ist, dass kompliziertere Java Programmierabläufe und commands auf einfacher verständliche Blöcke mit "Beschriftung" heruntergebrochen sind und sie deshalb gut für Einsteiger geeignet sind.
 * Spielerklärung
 
 ## 2.Code
