@@ -2,7 +2,13 @@
 # Informatikprojekt
 
 ## Einführung
-* Bla
+* 
+* Snap als Programmierplattform
 
-## Genaueres
-* Bla
+## Code
+* Grundbefehle
+
+
+
+
+
