@@ -164,6 +164,9 @@ Wir bereits an manchen Tagen angeklungen, ist der BJC-Kurs sehr kleinschrittig u
 
 Unsere sehr grobe Spielidee war, dass man ein “Alien” steuert und einzelnen, zufällig erscheinenden Bällen für Punkte nachjagt.  
 
+[zum Spiel](https://snap.berkeley.edu/snapsource/snap.html#present:Username=stormann1&ProjectName=Ball%20Hunter%201.1)
+
+
 Zuerst entwickelten wir daher die Grundsteuerung. Dies war einfach umzusetzen, indem man einer bestimmten Taste eine Aktion zuordnet. Außerdem haben wir die Grundlage des Codes für den Ball erstellt. Wenn dieser berührt wird, springt er zu einem zufälligen Ort. Dies wird dann als ein Punkt in unserem Scoreboard verzeichnet, welches wir durch “Variables” erstellt haben. 
 
 ![vier](https://user-images.githubusercontent.com/42579272/48915887-9d795800-ee80-11e8-9771-980bfa60e7d0.JPG)
