@@ -23,12 +23,15 @@ blablli bli blub
   Die Stage ist ein "noCopyright" Bild eines leicht zerknüllten Blattes, welches den Hintergrund weniger öde wirken lässt, sich aber trotzdem nicht aufdrängt. Vom ästhetischen Effekt abgesehen, hat die Stage keine Bedeutung im Spiel.
 2.2 Spielrahmen
   * Anfangsscreen
-Zu Beginn des Spiels wird der Spieler durch ein schwarzes Bild aufgefordert, die Leertase ("Space") zu drücken.
+Zu Beginn des Spiels wird der Spieler durch ein schwarzes Bild aufgefordert, die Leertase ("Space") zu drücken. Der Startbildschirm ist so konzipiert, dass er immer dann angezeigt wird, wenn ein neues Spiel beginnen soll. Er wird also dann angezeigt wenn,
+- der spieler gewonnen hat
+- der Spieler das grüne "reset" Fänchen gerückt hat
+- der Spieler verloren hat (erst nachdem der "Game over" screen abgelaufen ist und den neustart befehl "Press Space" ausgegeben hat)
+![screenshot 2018-11-23 19 20 48](https://user-images.githubusercontent.com/42579272/48956727-e8fd3600-ef54-11e8-8881-923a51a31cba.png)
 
-![screenshot 2018-11-23 19 12 34](https://user-images.githubusercontent.com/42579272/48956531-c880ac00-ef53-11e8-83aa-4a61aab8b8c4.png)
+Folgt der Spieler dieser Anweisung, werden diverse "Spielbeginnmechaniken" ausgelöst. Zuerst verschwindet der "Press Space" Bildschirm und der Spieler sieht zum ersten Mal das Spielfeld. Alien wird in die Mitte des Bildschirms teleportiert und fragt den Spieler nach seinem Namen, welchen dieser in einem Textfeld eintragen darf. Ist das geschehen, prüft das Spiel in einer Liste, ob dieser Spielername bereits existiert. Ist das nicht der Fall, wird der Name zur Liste hinzugefügt und der Spieler wird gefragt, ob er schon einmal (z.B. unter einem anderen Namen) gespielt hat. Beantwortet der Spieler die Frage mit Ja wird das Spiel gestartet, beantwortet er die Frage mit Nein, dann durchläuft der Spieler das [Tutorial](#h1).
 
-Folgt der Spieler dieser Anweisung, werden diverse "Spielbeginnmechaniken" ausgelöst.
-  * Tutorial
+  * Tutorial <a name="h1"></a>
   * Game-Overscreen
   
 2.3 Bewertungssystem
