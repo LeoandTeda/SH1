@@ -240,7 +240,11 @@ Um später vergleichen zu können wer die 40 Bälle am schnellsten eingesammelt 
 ![dreizehn](https://user-images.githubusercontent.com/42579272/48915985-dfa29980-ee80-11e8-9bd4-68d916d1dc1d.JPG)
 
 Wenn ein Spieler 40 Punkte erreicht hat erscheint: Glückwunsch etc. Und der score wird versteckt, sowie um einen Punkt erhöht. Denn bei 41 Punkten wird die Uhr beendet und die Punkte werden angezeigt. 
-Wie bereits erwähnt haben wir zur Steuerung von vielen Spielmechaniken einen "if" block in Kombination mit einem "score" Wert genutzt. Also wenn der score größer ist als [xy], dann führe command [mn] aus. Gerade bei unserem Spiel bietet sich so eine vorgehensweise an, weil wir so basierend auf dem Spielfortschritt zum Beispiel unterschiedliche Schwierigkeiten einbauen konnten.
+Wie bereits erwähnt haben wir zur Steuerung von vielen Spielmechaniken einen "if" block in Kombination mit einem "score" Wert genutzt. Also wenn der score größer ist als [xy], dann führe command [mn] aus. Gerade bei unserem Spiel bietet sich so eine vorgehensweise an, weil wir so basierend auf dem Spielfortschritt zum Beispiel unterschiedliche Schwierigkeiten einbauen konnten. Die Uhr haben wir bewusst so eingestellt, dass sie weiterläuft bis der score 41 beträgt. Obwohl der Spieler bei einem score von 40 schon gewonnen hat und die Uhr durch das hinzufügen eines scorepunkts auch sofort angehalten wird, wenn der Spieler 40 erreicht hat, BILD
+
+brauchten wir einen Weg, die Uhr auch dann anzuhalten, wenn der Spieler verliert, weil sonst die alte Zeit auf ein neues Spiel übertragen worden wäre. Wir haben also den ohnehin schon vorhandenen "Spieler verliert" broadcast dafür verwendet, den score auf 41 zu setzen. Das führt zwar dazu, dass die uhr angehalten wird, nicht aber, dass der spieler gewinnt, weil das nur bei score=40 passiert. BILD
+
+so konnten wir einen sehr nervigen Bug durch einen kleinen Umweg ausmärzen.
 
 ![zwolf](https://user-images.githubusercontent.com/42579272/48915968-d4e80480-ee80-11e8-9e5d-87ebfe32fb37.JPG)
 
