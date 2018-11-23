@@ -4,7 +4,7 @@
 ## Einführung
 * Sinn des Spiels
 * Snap als Programmierplattform
-* Spielkerklärung
+* Spielerklärung
 
 ## Code
 * Grundbefehle
