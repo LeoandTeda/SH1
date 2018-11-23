@@ -273,9 +273,14 @@ Im Verlauf der Stunden haben wir oftmals auch zuhause am Spiel gearbeitet, wesha
  ### 13. November <a name="s14"></a>
  * Arbeit am Spiel, Ziel auf "Fertigstellung"
    * Testphase
+   * Play tester
  <details>
   <summary>Genauer:</summary>
-     In dem uns gegebenen Zeitrahmen hatten wir die Möglichkeit einiges an unserem Spiel zu programmieren, so dass es nun bereits als eigenständiges Produkt “spielbar” ist. Jedoch hätten wir viele weitere Ideen gerne umgesetzt um es für den Spieler attraktiver zu machen und mehr unserer gewonnen Kenntnisse darin einfließen zu lassen. Dennoch ist uns, dass man dies nahezu ewig weiterführen kann, weshalb wir in unserer freien Zeit, nach Projektabgabe garantiert noch weitere Dinge hinzufügen werden.  
+  Mit etwas Heimarbeit haben wir es geschafft, unser Spiel übers Wochenende und mit dem letzten Feinschliff am Anti-Alien am Montag fertigzustellen. Somit waren alle Voraussetzungen erfüllt, um unser Spiel in der Doppelstunde in die "Spieltestphase" zu schicken. Wir haben dafür unsere Mitschüler gebeten, dass Spiel für uns auszuprobieren und uns anschließend Feedback zu geben. Außerdem ist so ein Test auch eine gute Möglichkeit, um eventuell verbliebende Spielfehler (Bugs) zu finden bzw. finden zu lassen, da unabhängige freie Spieler, die nicht an der Programmierung beteiligt waren, Dinge in Situationen ausprobieren, die uns gar nicht eingefallen wären.
+  Die Tester haben also fleißig gespielt und uns viel Feedback gegeben. So haben wir zum Beispiel die Geschwindigkeit, mit der sich der Ball bei höheren score Werte wegteleportiert etwas angepasst, um so die Spielbalance etwas anzupassen, um den Spieler mehr für seine Anstrengungen zu belohnen. (Vielen war es so ergangen, dass der Ball sich immer wegteleportiert hatte, wenn sie kurz davor waren ihn einzusammeln.)
+  Damit das spiel trotzdem nicht _zu_ einfach zu machen, haben wir eine weitere Anregung eines Testers aufgenommen und die Anti-Alien Mechaniken noch etwas angepasst. Wir haben uns vorgenommen, in den leichteren Stufen kleinere Aliens quer über den Bildschirm hin und her gleiten zu lassen. Wird es schwerer kommen nicht nur das große "Mutterschiff" zurück, sondern auch ein besonders fieser wiedersacher, der unseren tapferen Spielhelden auf schritt und tritt _verfolgt_. In code sieht das ganze so aus:
+  
+     (In dem uns gegebenen Zeitrahmen hatten wir die Möglichkeit einiges an unserem Spiel zu programmieren, so dass es nun bereits als eigenständiges Produkt “spielbar” ist. Jedoch hätten wir viele weitere Ideen gerne umgesetzt um es für den Spieler attraktiver zu machen und mehr unserer gewonnen Kenntnisse darin einfließen zu lassen. Dennoch ist uns, dass man dies nahezu ewig weiterführen kann, weshalb wir in unserer freien Zeit, nach Projektabgabe garantiert noch weitere Dinge hinzufügen werden.  )
  </details>    <hr>
  
  
