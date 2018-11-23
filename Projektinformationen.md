@@ -102,7 +102,25 @@ Ein control block, der sich so lange wiederholt, bis der score den Wert 41 errei
 
   * Tutorial <a name="h1"></a>
   
-  * Game-Overscreen
+  Erhält der "Tutorial" Block "start Tutorial", spielt er das tutorial ab. In diesem werden zunächst einige Textnachrichten als Einfühung und Kontextualisierung zum Spiel abgespielt. Gleichzeitig zum Tutorial werden auch einige Spielrelevante objekte, wie zum Beispiel der zu fangende Ball eingeblendet. Um dies zu realisieren wird "tutorial Ball" durch einen broadcast-Block asugegeben. Ein Block im Ball-Sprite empfängt das Signal und blendet den Ball im default Kostüm mit der Standard-Größe so lange ein, wie er im Tutorial erwähnt wird. Danach verschwindet er wieder.
+  
+  ![screenshot 2018-11-23 21 10 01](https://user-images.githubusercontent.com/42579272/48959197-27e6b800-ef64-11e8-8c91-229f045e0498.png)
+  ![screenshot 2018-11-23 21 08 55](https://user-images.githubusercontent.com/42579272/48959176-0685cc00-ef64-11e8-8d21-166c9b957b7c.png)
+  
+  Im weiteren Verlauf des Tutorials wird dem Spieler die Steuerung des Aliens erklärt. Er wird dann dazu aufgefordert, diese auszuprobieren. Mit Variablen, die erhöht werden, wenn der Spieler die tasten verwendet, die zum Steuern des Aliens benötigt werden, wird aufgezeichnet, welche der Steuerungselemente der Spieler nutzt:
+  
+  ![screenshot 2018-11-23 21 12 57](https://user-images.githubusercontent.com/42579272/48959275-91ff5d00-ef64-11e8-96ae-aa541b7bda1e.png)
+  
+  Ein control-Block mit einer "if-clause" überprüft dauerhaft, ob alle Steuerungsvariablen (flash, tut1, tut2, tut3) mindestens einmal erhöht wurden. Er überprüft also, ob der Spieler alle Steuerungselemente mindestens einmal ausprobiert hat. Ist dies nicht der Fall, wird der Spieler, wenn eine der Tutorialvariablen noch 0 ist, dazu aufgefordert, die Steuerung auszuprobieren. Dieser Block wird durch einen "repeat until" Block so lange wiederholt, bis alle Tutorialvariablen größer sind als 0, was bedeutet, dass der Spieler alle Steuerungstasten mindestens einmal ausprobiert hat.
+  
+  ![screenshot 2018-11-23 21 15 38](https://user-images.githubusercontent.com/42579272/48959392-4a2d0580-ef65-11e8-8711-d75846d3a88d.png)
+  
+  Wenn diese schleife also beendet ist, weil der Spieler die Steuerung ausprobiert hat und somit auch alle tutorialvariabeln größer, als null sind, was nochmal durch einen "if-Block" überprüft wird, wird das tutorial fortgesetzt und weiterer text ausgegeben. In einem ähnlichen Verfahren wie beim Ball wird der Gegner "Anti-alien" vorgestellt. Daraufhin wird "start game" per broadcast-Block ausgegeben und die Tutorialvariablen werden auf 0 zurückgesetzt.
+  
+  ![screenshot 2018-11-23 21 20 39](https://user-images.githubusercontent.com/42579272/48959572-90cf2f80-ef66-11e8-94d5-7250f13e2dff.png)
+  
+  * Game Over Screen
+  
   
 2.3 Bewertungssystem
   * Scoreboard 
