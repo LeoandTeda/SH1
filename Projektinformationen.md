@@ -8,6 +8,17 @@
 
 ## Code
 * Grundbefehle
+  * Tastenbelegung
+  * Stage
+
+* Bewertungssystem
+  * Scoreboard 
+  * Punktevergabe/ Listung
+
+* Spielrahmen
+  * Anfangsscreen
+  * Tutorial
+  * Game-Overscreen
 
 ### Sprites:
 * Alien
