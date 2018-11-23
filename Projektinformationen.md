@@ -23,15 +23,18 @@ Im code sind diese Befehle mit einem control Block mit dem jeweiligen input ("wh
   ![eins](https://user-images.githubusercontent.com/42579272/48915856-820e4d00-ee80-11e8-9027-822efd05e3fc.JPG "w,a,s,d BILDER")
   
   * Flash
-  damit der flash Befehl nur 3x funktioniert, wird immer, wenn f gedrückt wird +1 zur Variable "flash" hinzugefügt. Aufgrund eines "if-blocks" wird der "goto" "random position" Block nur dann aktiviert, wenn der flash counter kleiner ist, als 3. Nach dem 3. Einsatz der teleportation ist der Wert für "flash" 3, wodurch der goto random position Block nicht mehr beim drücken von "f" ausgelöst wird.
+  
+    damit der flash Befehl nur 3x funktioniert, wird immer, wenn f gedrückt wird +1 zur Variable "flash" hinzugefügt. Aufgrund eines "if-blocks" wird der "goto" "random position" Block nur dann aktiviert, wenn der flash counter kleiner ist, als 3. Nach dem 3. Einsatz der teleportation ist der Wert für "flash" 3, wodurch der goto random position Block nicht mehr beim drücken von "f" ausgelöst wird.
   
 ![screenshot 2018-11-23 20 39 57](https://user-images.githubusercontent.com/42579272/48958648-e3a5e880-ef60-11e8-88a7-785f9a587db0.png)
 
 
   * Stage
+  
   Die Stage ist ein "noCopyright" Bild eines leicht zerknüllten Blattes, welches den Hintergrund weniger öde wirken lässt, sich aber trotzdem nicht aufdrängt. Vom ästhetischen Effekt abgesehen, hat die Stage keine Bedeutung im Spiel.
 2.2 Spielrahmen
   * Anfangsscreen
+  
 Zu Beginn des Spiels wird der Spieler durch ein schwarzes Bild aufgefordert, die Leertase ("Space") zu drücken. Der Startbildschirm ist so konzipiert, dass er immer dann angezeigt wird, wenn ein neues Spiel beginnen soll. Er wird also dann angezeigt wenn,
 - der spieler gewonnen hat
 - der Spieler das grüne "reset" Fänchen gerückt hat
@@ -70,32 +73,42 @@ Wird das rote X gedrückt, gibt ein Broadcaster "start tutorial" aus und das [Tu
 ![screenshot 2018-11-23 20 16 12](https://user-images.githubusercontent.com/42579272/48958008-a2133e80-ef5c-11e8-9475-7fb985dc2222.png)
 
 * Spielerliste <a name="Spielerliste"></a>
+
 In der Spielerliste werden die Namen aller Spieler gespeichert, die das Spiel gespielt und Ihren Namen eingetragen haben. Wird das Spiel lokal gespeichert, erkennt es die Spieler wieder und begrüßt sie zurück. Die Spielerliste wurde als Variable erstellt, um diesem Zweck zu dienen und wird dem Spieler nicht angezeigt. Die Variable wurde mit dem "set to" Block zu einer Liste umgewandelt.
 
 ![screenshot 2018-11-23 20 24 50](https://user-images.githubusercontent.com/42579272/48958206-e0f5c400-ef5d-11e8-9d11-e40adeec75b1.png)
 
 * Spielbeginn <a name="Spielbeginn"></a>
+
 Das Spiel beginnt, wenn ein Broadcaster-Block "Start Game" ausgibt. Dies kann passieren, wenn
 - der Spieler das Tutorial beendet hat
 - der Spieler seinen bereits bekannten Namen eingibt
 - der SPieler einen neuen Namen eingibt, aber mit dem grünen Haken bestätigt, dass er mit den Spielmechaniken bereits vertraut ist.
 Wird "Start Game" signalisiert, spielen viele Prozesse gleichzeitig bei unterschiedlichen Sprites ab:
-- Der ["Ball"](#Ball) wechselt, wenn er "Start Game" empfängt zu seinem Standard-Kostüm, setzt seine Größe zur Normalgröße zurück, beendet die Unsichtbarkeit und begibt sich auf eine zufällige Position auf der Map.
+
+Der ["Ball"](#Ball) wechselt, wenn er "Start Game" empfängt zu seinem Standard-Kostüm, setzt seine Größe zur Normalgröße zurück, beendet die Unsichtbarkeit und begibt sich auf eine zufällige Position auf der Map.
 
 ![screenshot 2018-11-23 20 29 54](https://user-images.githubusercontent.com/42579272/48958360-c112d000-ef5e-11e8-8931-4423dcda8b1d.png)
 
-- "Alien" wechselt ebenfalls zur neutralen Ausgangsposition, wenn es "Start Game" empfängt. Außerdem setzt der Block die Variable für "flash" auf 0, um dem Spieler zu Beginn jedes Spiels 3 Teleportationen freizuschalten.
+"Alien" wechselt ebenfalls zur neutralen Ausgangsposition, wenn es "Start Game" empfängt. Außerdem setzt der Block die Variable für "flash" auf 0, um dem Spieler zu Beginn jedes Spiels 3 Teleportationen freizuschalten.
 
 ![screenshot 2018-11-23 20 32 28](https://user-images.githubusercontent.com/42579272/48958531-f370fd00-ef5f-11e8-80be-5245b3703f12.png)
 
+Ein control block, der sich so lange wiederholt, bis der score den Wert 41 erreicht, beginnt wenn er "start game" empfängt einen sekundenzähler zu simulieren, indem er zur Variable "Zeit" mit dem Abstand von einer sekunde den Wert 1 hinzufügt. Der Wert von 41 wurde gewählt, damit die Uhr zurückgesetzt werden kann, ohne dass der ["Spieler gewinnt"](#Spieler-gewinnt).
+
+![screenshot 2018-11-23 20 55 04](https://user-images.githubusercontent.com/42579272/48958988-be19de80-ef62-11e8-8b25-45083a709138.png)
+
+
+
   * Tutorial <a name="h1"></a>
+  
   * Game-Overscreen
   
 2.3 Bewertungssystem
   * Scoreboard 
   * Punktevergabe/ Listung
+  * Spieler gewinnt <a name="Spieler-gewinnt"></a>
 
-2.4 Timer
 
 ### 3.Sprites:
 * Alien
