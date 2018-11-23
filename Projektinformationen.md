@@ -5,6 +5,7 @@
 * Sinn des Spiels
 * Snap! ist eine blockbasierte Programmiersprache für Einsteiger. Der Vorteil an solchen Programmierumgebungen ist, dass kompliziertere Java Programmierabläufe und commands auf einfacher verständliche Blöcke mit "Beschriftung" heruntergebrochen sind und sie deshalb gut für Einsteiger geeignet sind.
 * Ball Hunter ist ein Spiel bei dem der Spieler den Protagonisten "Alien" steuert. Das Ziel dabei ist, in möglichst kurzer zeit so oft, wie möglich den Ball zu fangen. Mit steigendem Spielfortschritt steigt auch der Anspruch und es kommen Herausforderungen auf den Spieler zu. Gewonnen hat der Spieler, wenn es ihm gelungen ist, den Ball 40 mal einzusammeln, ohne dabei von seinem gegner, dem Anti-Alien gefangen zu werden.
+[zum Spiel] (https://snap.berkeley.edu/snapsource/snap.html#present:Username=stormann1&ProjectName=Ball%20Hunter%201.1)
 
 ## 2.Code
 2.1 Grundbefehle
