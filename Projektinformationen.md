@@ -1,11 +1,5 @@
 
-# Informatikprojekt
-
-<details>
-  <summary>Inhaltsverzeichnis</summary>
-blablli bli blub
-</details>
-
+# Informatikprojekt: Ball Hunter
 
 ## 1.Einführung
 * Sinn des Spiels
