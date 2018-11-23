@@ -184,6 +184,8 @@ Die Umsetzung der Bewegung und der Auswahl der Richtung ist dabei identisch zur 
 
 ![screenshot 2018-11-23 23 03 02](https://user-images.githubusercontent.com/42579272/48961353-f249cb00-ef73-11e8-9419-6148062d8893.png)
 
+Berührt der Spieler die mini-Anti-Aliens wird "Spieler verliert" signalisiert. Und das Spiel wird zurückgesetzt, siehe ["Game over screen"](#Game-over).
+
 #### Random Laufender
 der "random", also zufällig laufende Anti-Alien hat ein besonderes skript. Er bewegt sich stur geradeaus und prallt von Wänden ab(Einfallswinkel=Ausfallswinkel ;)), ändert nach einer Weile aber seine Richtung in Richtung des Aliens.
 Im code ist dieses Prinzip umgesetzt, dass der Alien sich durch bekanntes verwenden vom "if controlblock" in kombination mit einem score-Wert ab einem score von 25 dieser Alien zu x:200 und y:200 geht, was leicht außerhalb der Spielkarte liegt. Im gleichen Block ist ein "repeat until" block eingebaut der mit einem wait 8 sekunden Block dafür sorgt, dass der "random laufende" alle 8 sekunden in Richtung Alien schaut.
@@ -195,6 +197,8 @@ Ein weiterer Block sorgt dafür, dass der random laufende bei gleichen score wer
 ![screenshot 2018-11-23 23 10 40](https://user-images.githubusercontent.com/42579272/48961453-0215df00-ef75-11e8-92ce-a2773f8ef4f1.png)
 
 Zusammen Sorgen diese Blöcke für ein auf der Position des Aliens basierendes, fast zufälliges Bewegungsmuster.
+
+Berührt der Spieler den "random laufenden" wird "Spieler verliert" signalisiert. Und das Spiel wird zurückgesetzt, siehe ["Game over screen"](#Game-over).
 
 ### 4.Herausforderungen
 4.1 Glide-Problematik
