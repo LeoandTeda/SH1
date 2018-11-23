@@ -23,9 +23,11 @@ blablli bli blub
   Die Stage ist ein "noCopyright" Bild eines leicht zerknüllten Blattes, welches den Hintergrund weniger öde wirken lässt, sich aber trotzdem nicht aufdrängt. Vom ästhetischen Effekt abgesehen, hat die Stage keine Bedeutung im Spiel.
 2.2 Spielrahmen
   * Anfangsscreen
- Zu Beginn des Spiels wird der Spieler durch ein schwarzes Bild aufgefordert, die Leertase ("Space") zu drücken.
- ![screenshot 2018-11-23 19 12 34](https://user-images.githubusercontent.com/42579272/48956531-c880ac00-ef53-11e8-83aa-4a61aab8b8c4.png)
- Folgt der Spieler dieser Anweisung, werden diverse "Spielbeginnmechaniken" ausgelöst.
+Zu Beginn des Spiels wird der Spieler durch ein schwarzes Bild aufgefordert, die Leertase ("Space") zu drücken.
+
+![screenshot 2018-11-23 19 12 34](https://user-images.githubusercontent.com/42579272/48956531-c880ac00-ef53-11e8-83aa-4a61aab8b8c4.png)
+
+Folgt der Spieler dieser Anweisung, werden diverse "Spielbeginnmechaniken" ausgelöst.
   * Tutorial
   * Game-Overscreen
   
