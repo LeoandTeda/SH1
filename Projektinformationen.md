@@ -196,11 +196,6 @@ Zusammen Sorgen diese Blöcke für ein auf der Position des Aliens basierendes, 
 
 Berührt der Spieler den "random laufenden" wird "Spieler verliert" signalisiert. Und das Spiel wird zurückgesetzt, siehe ["Game over screen"](#Game-over).
 
-### 5.Fazit
-#### Ausblick
-
-
-
 
 
 
