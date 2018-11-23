@@ -14,7 +14,7 @@ blablli bli blub
 
 ## 2.Code
 2.1 Grundbefehle
-  * Tastenbelegung 
+ #### Tastenbelegung 
 
 Mit den Kontrolltasten w,a,s,d,f kann der Spieler das Alien steuern. Mit w geht er vorwärts, mit a und d wechselt er die Blickrichtung und mit s bewegt er sich rückwärts. Drückt der Spieler f, kann er sich auf eine zufällige Stelle auf der Map teleportieren, diese Fähigkeit funktioniert allerdings nur 3x, siehe ["Flash"](#flash). 
 
@@ -22,18 +22,17 @@ Im code sind diese Befehle mit einem control Block mit dem jeweiligen input ("wh
   
   ![eins](https://user-images.githubusercontent.com/42579272/48915856-820e4d00-ee80-11e8-9027-822efd05e3fc.JPG "w,a,s,d BILDER")
   
-  * Flash
-  
-    damit der flash Befehl nur 3x funktioniert, wird immer, wenn f gedrückt wird +1 zur Variable "flash" hinzugefügt. Aufgrund eines "if-blocks" wird der "goto" "random position" Block nur dann aktiviert, wenn der flash counter kleiner ist, als 3. Nach dem 3. Einsatz der teleportation ist der Wert für "flash" 3, wodurch der goto random position Block nicht mehr beim drücken von "f" ausgelöst wird.
+  #### Flash
+damit der flash Befehl nur 3x funktioniert, wird immer, wenn f gedrückt wird +1 zur Variable "flash" hinzugefügt. Aufgrund eines "if-blocks" wird der "goto" "random position" Block nur dann aktiviert, wenn der flash counter kleiner ist, als 3. Nach dem 3. Einsatz der teleportation ist der Wert für "flash" 3, wodurch der goto random position Block nicht mehr beim drücken von "f" ausgelöst wird.
   
 ![screenshot 2018-11-23 20 39 57](https://user-images.githubusercontent.com/42579272/48958648-e3a5e880-ef60-11e8-88a7-785f9a587db0.png)
 
 
-  * Stage
+  #### Stage
   
   Die Stage ist ein "noCopyright" Bild eines leicht zerknüllten Blattes, welches den Hintergrund weniger öde wirken lässt, sich aber trotzdem nicht aufdrängt. Vom ästhetischen Effekt abgesehen, hat die Stage keine Bedeutung im Spiel.
 2.2 Spielrahmen
-  * Anfangsscreen
+ #### Anfangsscreen
   
 Zu Beginn des Spiels wird der Spieler durch ein schwarzes Bild aufgefordert, die Leertase ("Space") zu drücken. Der Startbildschirm ist so konzipiert, dass er immer dann angezeigt wird, wenn ein neues Spiel beginnen soll. Er wird also dann angezeigt wenn,
 - der spieler gewonnen hat
@@ -72,13 +71,13 @@ Wird das rote X gedrückt, gibt ein Broadcaster "start tutorial" aus und das [Tu
 
 ![screenshot 2018-11-23 20 16 12](https://user-images.githubusercontent.com/42579272/48958008-a2133e80-ef5c-11e8-9475-7fb985dc2222.png)
 
-* Spielerliste <a name="Spielerliste"></a>
+#### Spielerliste <a name="Spielerliste"></a>
 
 In der Spielerliste werden die Namen aller Spieler gespeichert, die das Spiel gespielt und Ihren Namen eingetragen haben. Wird das Spiel lokal gespeichert, erkennt es die Spieler wieder und begrüßt sie zurück. Die Spielerliste wurde als Variable erstellt, um diesem Zweck zu dienen und wird dem Spieler nicht angezeigt. Die Variable wurde mit dem "set to" Block zu einer Liste umgewandelt.
 
 ![screenshot 2018-11-23 20 24 50](https://user-images.githubusercontent.com/42579272/48958206-e0f5c400-ef5d-11e8-9d11-e40adeec75b1.png)
 
-* Spielbeginn <a name="Spielbeginn"></a>
+#### Spielbeginn <a name="Spielbeginn"></a>
 
 Das Spiel beginnt, wenn ein Broadcaster-Block "Start Game" ausgibt. Dies kann passieren, wenn
 - der Spieler das Tutorial beendet hat
@@ -100,7 +99,7 @@ Ein control block, der sich so lange wiederholt, bis der score den Wert 41 errei
 
 
 
-  * Tutorial <a name="h1"></a>
+  #### Tutorial <a name="h1"></a>
   
   Erhält der "Tutorial" Block "start Tutorial", spielt er das tutorial ab. In diesem werden zunächst einige Textnachrichten als Einfühung und Kontextualisierung zum Spiel abgespielt. Gleichzeitig zum Tutorial werden auch einige Spielrelevante objekte, wie zum Beispiel der zu fangende Ball eingeblendet. Um dies zu realisieren wird "tutorial Ball" durch einen broadcast-Block asugegeben. Ein Block im Ball-Sprite empfängt das Signal und blendet den Ball im default Kostüm mit der Standard-Größe so lange ein, wie er im Tutorial erwähnt wird. Danach verschwindet er wieder.
   
@@ -119,13 +118,13 @@ Ein control block, der sich so lange wiederholt, bis der score den Wert 41 errei
   
   ![screenshot 2018-11-23 21 20 39](https://user-images.githubusercontent.com/42579272/48959572-90cf2f80-ef66-11e8-94d5-7250f13e2dff.png)
   
-  * Game Over Screen
+  #### Game Over Screen
   
   
 2.3 Bewertungssystem
-  * Scoreboard 
-  * Punktevergabe/ Listung
-  * Spieler gewinnt <a name="Spieler-gewinnt"></a>
+  #### Scoreboard 
+  #### Punktevergabe/ Listung
+  #### Spieler gewinnt <a name="Spieler-gewinnt"></a>
 
 
 ### 3.Sprites:
