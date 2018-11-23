@@ -14,8 +14,7 @@ blablli bli blub
 
 ## 2.Code
 2.1 Grundbefehle
-  * Tastenbelegung
- 
+  * Tastenbelegung 
  Mit den Kontrolltasten w,a,s,d,f kann der Spieler das Alien steuern. Mit w geht er vorwärts, mit a und d wechselt er die Blickrichtung und mit s bewegt er sich rückwärts. 
   Im code sind diese Befehle mit einem control Block mit dem jeweiligen input ("when ... is pressed") und einem Motion block (move ... steps, turn ... degrees) umgesetzt.
   ![eins](https://user-images.githubusercontent.com/42579272/48915856-820e4d00-ee80-11e8-9027-822efd05e3fc.JPG "w,a,s,d BILDER")
