@@ -1,6 +1,12 @@
 
 # Informatikprojekt
 
+<details>
+  <summary>Inhaltsverzeichnis</summary>
+blablli bli blub
+</details>
+
+
 ## 1.Einführung
 * Sinn des Spiels
 * Snap als Programmierplattform
