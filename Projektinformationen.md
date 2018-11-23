@@ -41,6 +41,29 @@ Durch das drücken der Leertaste wird außerdem der Alien in die Mitte des Bilds
 
 ![screenshot 2018-11-23 19 41 34](https://user-images.githubusercontent.com/42579272/48957265-cddff580-ef57-11e8-8bf0-288b4469013e.png)
 
+Mit drücken der Leertaste werden außerdem alle anderen Sprites an einen Ort außerhalb der für den Spieler erreichbaren Map teleportiert. Das ist wichtig, damit der Spieler nicht zu Beginn mit zu vielen Reizen, die für Tutorial und Spielbeginn unwichtig sind konfrontiert wird, ist aber _vor allem_ dann wichtig, wenn das Spiel begonnen hat, weil der Spieler, wenn diese nicht vor Spielbeginn wegteleportiert worden wären, mit _noch_ unsichtbaren [Gegnern](#Gegner) kollidieren könnte, was zu einer unfairen Niederlage für den Spieler führen würde. Auch diese hide und teleportationsbefehle funktionieren aus o.g. Gründen nur, wenn "score=0" wahr ist.
+
+![screenshot 2018-11-23 19 50 37](https://user-images.githubusercontent.com/42579272/48957597-d5a09980-ef59-11e8-880a-9e681f164313.png)
+
+Um herauszufinden, ob der Spieler schon einmal gespielt hat und erfahrenen Spielern das Tutorial zu ersparen wird durch das drücken von Space außerdem ein "if, else" control block in gang gesetzt. Zuerst wird der Spieler mit einem "ask" sensing block nach seinem Namen gefragt und hat aufgrund der Beschaffenheit des Blockes die Möglichkeit, eine Antwort einzugeben. "if" (wenn) diese Antwort in der [Spielerliste](#Spielerliste) vorhanden ist, wird der bekannte Spieler begrüßt und ein broadcast-block gibt den Befehl für den [Spielbeginn](#Spielbeginn) aus.
+
+![screenshot 2018-11-23 20 02 51](https://user-images.githubusercontent.com/42579272/48957725-c8d07580-ef5a-11e8-96aa-9d485b50a3eb.png)
+
+steht der eingegebene Name nicht auf der Liste, wird die "else" Seite des Blocks aktiviert, welche dafür sorgt, dass Alien sagt: "Hast du schonmal gespielt?"
+
+![screenshot 2018-11-23 20 06 41](https://user-images.githubusercontent.com/42579272/48957791-544a0680-ef5b-11e8-984e-b7c99ced82be.png)
+
+Daraufhin sendet ein Broadcaster-Block "hast du schonmal gespielt", was zwei Sprites, einer mit einem grünen Haken für "Ja" und ein anderer mit einem roten kreuz für "nein" erscheinen lässt. Auch ein Spieler für den es nicht das erste Mal im Spiel ist hat so die Möglichkeit mit einem neuen Namen anzutreten, denn wenn der Haken angeklickt wird, startet ein Broadcaster-Block das Spiel indem er "start game" ausgibt und so den [Spielbeginn](#Spielbeginn) auslöst.
+
+![screenshot 2018-11-23 20 13 12](https://user-images.githubusercontent.com/42579272/48957924-39c45d00-ef5c-11e8-88a6-7b47e90a882c.png)
+
+Wird das rote X gedrückt, gibt ein Broadcaster "start tutorial" aus und das [Tutorial](#Tutorial) für Neuankömmlinge wird gestartet.
+
+![screenshot 2018-11-23 20 16 12](https://user-images.githubusercontent.com/42579272/48958008-a2133e80-ef5c-11e8-9475-7fb985dc2222.png)
+
+* Spielerliste <a name="Spielerliste"></a>
+
+In der
   * Tutorial <a name="h1"></a>
   * Game-Overscreen
   
