@@ -7,20 +7,20 @@
 * Spielerklärung
 
 ## 2.Code
-* 2.1 Grundbefehle
+2.1 Grundbefehle
   * Tastenbelegung
   * Stage
 
-* 2.2 Spielrahmen
+2.2 Spielrahmen
   * Anfangsscreen
   * Tutorial
   * Game-Overscreen
   
-* 2.3 Bewertungssystem
+2.3 Bewertungssystem
   * Scoreboard 
   * Punktevergabe/ Listung
 
-* 2.4 Timer
+2.4 Timer
 
 ### 3.Sprites:
 * Alien
@@ -31,9 +31,9 @@
 * Ball
 
 ### 4.Herausforderungen
-* 4.1 Glide-Problematik
+4.1 Glide-Problematik
   * Scorepunkte
-* 4.2 Steuerungsdefizit
+4.2 Steuerungsdefizit
   * a, und d nur Blickrichtung
   
 
