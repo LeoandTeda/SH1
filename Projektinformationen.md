@@ -119,21 +119,29 @@ Ein control block, der sich so lange wiederholt, bis der score den Wert 41 errei
   ![screenshot 2018-11-23 21 20 39](https://user-images.githubusercontent.com/42579272/48959572-90cf2f80-ef66-11e8-94d5-7250f13e2dff.png)
   
   #### Game Over Screen
+  Wenn der Game Over Screen "Spieler verliert" empfängt zeigt er sich, um dem Spieler zu signalisieren, dass dieser verloren hat. Er setzt außerdem den Wert des scores auf "41", was den zuvor erklärten "Sekundenzeiger" anhält. Nach 8 Sekunden signalisiert er "Press Space" was das Spiel so in den Ursprungszustand versetzt, wie die grüne Fahne es tun würde, weil "press Space" einer der "reset" Signale ist. Zuletzt verschwindet der Game over screen wieder um das spiel nicht zu überdecken.
+  
+  ![screenshot 2018-11-23 21 37 13](https://user-images.githubusercontent.com/42579272/48959790-0daed900-ef68-11e8-828c-2af4702a4515.png)
+  
+  #### score <a name="score"></a> <a name="score-Erklärung"></a>
+  "score" ist eine Variable, welche dem Spieler nach Spielbeginn angezeigt wird. Sie wird erhöht, wenn es dem Spieler gelingt, denn Ball einzusammeln/zu berühren. Bei einem score von 40 hat der Spieler das Spiel gewonnen, siehe [Spieler gewinnt](#Spieler-gewinnt)
   
   
-2.3 Bewertungssystem
-  #### Scoreboard 
-  #### Punktevergabe/ Listung
   #### Spieler gewinnt <a name="Spieler-gewinnt"></a>
+Der Spieler gewinnt wenn die "score" Variable den Wert 40 erreicht hat. Die "score" Variable wird immer dann erhöht, wenn "Alien" "Ball" berührt. Mehr dazu in [score](#score). Hat der score den Wert 40 wird der ein Block aktiviert, welcher dem Spieler gratuliert. Danach wird der bereits erwähnte Sekundenzeiger angehalten, indem zur variable "score" 1 hinzugefügt wird, nachdem diese versteckt wurde, um zu verhindern, dass der Spieler vorgänge im Hintergrund bemerkt. Dem Spieler wird daraufhin die Zeit in Sekunden aufgelistet, indem die "Zeit" variable angezeigt wird. Danach gibt ein Broadcaster "Spieler gewinnt" aus, was einer der "reset" Signale ist, wodurch das Spiel für eine neue Runde in den Grundzustand versetzt wird. So, als ob man die Grüne Fahne drücken würde.
+
+![screenshot 2018-11-23 21 50 24](https://user-images.githubusercontent.com/42579272/48960001-d50fff00-ef69-11e8-9b2d-2b3a1c166b63.png)
+![screenshot 2018-11-23 21 50 28](https://user-images.githubusercontent.com/42579272/48960003-d7725900-ef69-11e8-8413-57363d476e20.png)
+![screenshot 2018-11-23 21 51 38](https://user-images.githubusercontent.com/42579272/48960028-07216100-ef6a-11e8-9581-f0cafbe81cda.png)
 
 
 ### 3.Sprites:
-* Alien
+* Alien <a name="Spielerliste"></a>
+* Ball
 * Anti-Alien
 * Anti-Alien 2 (mini)
 * Anti-Alien 3 (mini)
 * Random Laufender
-* Ball
 
 ### 4.Herausforderungen
 4.1 Glide-Problematik
