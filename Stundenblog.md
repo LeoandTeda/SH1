@@ -32,6 +32,7 @@ Im Folgenden befindet sich eine Dokumentation der Arbeit im Rahmen des Informati
 Jedes Stundenprotokoll enthält, zur besseren Übersicht, eine Kurzfassung in Form von Stichpunkten. In Form eines Sprites lässt sich eine detaillierte Beschreibung der Stunde öffnen. 
 </details>
 
+
 ## Stundenprotokolle: <a name="h2"></a>         
 ### 21.August <a name="s1"></a>
 
